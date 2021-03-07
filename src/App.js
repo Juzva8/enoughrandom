@@ -1,9 +1,11 @@
 import './App.css';
+import Header from './Components/Header/Header'
+import { useStateValue } from '../src/StateProvider'
 
 function App() {
   return (
     <div className="app">
-  <h3>Random APP</h3>
+      <Header />
     </div>
   );
 }
