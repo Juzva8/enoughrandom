@@ -1,11 +1,9 @@
 import './App.css';
-import Header from './Components/Header/Header'
-import { useStateValue } from '../src/StateProvider'
 
 function App() {
   return (
-    <div className="app">
-      <Header />
+    <div className="App">
+      <h1>Welcome</h1>
     </div>
   );
 }
