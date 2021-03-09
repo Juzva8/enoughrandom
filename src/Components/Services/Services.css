@@ -1,9 +1,25 @@
-.services__text{
+.services__content{
     display: flex;
     justify-content: space-between;
     background-color: #fafafa;
     border-radius: 15px 15px 0px 0px;
-    padding:80px;
+    padding:120px;
     width: 100%;
     margin-top: 500px; 
+}
+
+.services__content__image > img{
+    display: flex;
+    height:80px;
+    justify-content: center;
+}
+.services__content__image > h3{
+    text-align: center;
+}
+.services__content__image:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 30px;
+    border-bottom: none;
 }
