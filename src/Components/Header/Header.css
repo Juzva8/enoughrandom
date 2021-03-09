@@ -1,8 +1,19 @@
+
+.header{
+    width:100%;
+    position: sticky; 
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px  rgb(0, 0, 0, 0.75);
+}
+
 .img{
     object-fit: contain;
     height:70px;
     background-color: transparent;
     object-fit: contain;
-  
+    padding-right: 30px;
   
   }
+  

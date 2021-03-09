@@ -1,14 +1,14 @@
 import React from 'react'
 import './Header.css'
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
-import logo from '../../Asets/logo.png';
+import logo from '../../Assets/logo.png';
 
 
 function Header() {
     return (
-        <div>
+        <div className="header">
             <Navbar bg="light" expand="lg">
-              <a href="/home" ClassName="Logo" rel="Home">
+              <a href="/" ClassName="Logo" rel="Home">
   <img  className = "img" src={logo} alt="Logo" />
   </a>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />

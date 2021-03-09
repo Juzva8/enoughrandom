@@ -10,6 +10,7 @@ import Contact from './Pages/Contact/Contact'
 
 
 
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -19,6 +20,7 @@ function App() {
       <Header />
       <Switch>
         <Route path='/' exact component={Home} />
+        <Route path='/home' exact component={Home} />
         <Route path='/about' component={About} />      
         <Route path='/services' component={Services} />
         <Route path='/contact' component={Contact} />
