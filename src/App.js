@@ -5,19 +5,15 @@ import About from './Pages/About/About'
 import Home from './Pages/Home/Home'
 import Services from './Pages/Services/Services'
 import Contact from './Pages/Contact/Contact'
-
-
-
-
-
-
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Brand from './Components/Brand/Brand';
 
 
 function App() {
   return (
     <Router>
       <Header />
+      <Brand />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/home' exact component={Home} />
