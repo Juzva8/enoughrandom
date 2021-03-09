@@ -5,7 +5,27 @@ import './Home.css'
 function Home() {
     return (
         <div ClassName="home">
-          <h1>HOME</h1>
+         <div className="home__content">
+           <p>
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         
+         </p>
+         </div>
         </div>
     )
 }

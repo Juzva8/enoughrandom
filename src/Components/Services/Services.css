@@ -1,12 +1,9 @@
-.services > img{
+.services__text{
     display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 5px 7px -7px  rgb(0, 0, 0, 0.75);
+    justify-content: space-between;
+    background-color: #fafafa;
+    border-radius: 15px 15px 0px 0px;
     padding:80px;
     width: 100%;
-    margin-top: 500px;
-
-  
+    margin-top: 500px; 
 }

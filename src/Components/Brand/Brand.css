@@ -1,5 +1,4 @@
 .brand__mainPicture > img{
-    background-position: top right;
     width: 100%;
     z-index: -1 !important;
     top: 65px;

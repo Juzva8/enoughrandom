@@ -1,7 +1,7 @@
 import React from 'react'
 import Picture from '../../Assets/Two_Eyebrows_Black.jpg'
-import './Brand.css'
 import Services from '../Services/Services'
+import './Brand.css'
 
 function Brand() {
     return (
