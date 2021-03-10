@@ -7,6 +7,7 @@ import Haircut from './Pages/Haircut/Haircut'
 import Makeup from './Pages/Makeup/Makeup'
 import Contact from './Pages/Contact/Contact'
 import Brows from './Pages/Brows/Brows'
+import Nails from './Pages/Nails/Nails'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Brand from './Components/Brand/Brand';
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/haircut' component={Haircut} />
         <Route path='/makeup' component={Makeup} />
         <Route path='/brows' component={Brows} />
+        <Route path='/nails' component={Nails} />
       </Switch>
 
       <Footer />
