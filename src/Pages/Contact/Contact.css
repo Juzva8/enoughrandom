@@ -58,8 +58,10 @@
     cursor: pointer;
     transition: 0.2s ease-in-out;
     margin-top: 10px;
+    border: none;
   }
   
   .contact__form > button:hover {
     background-color: lightgray;
+    border: none;
   }

@@ -7,6 +7,8 @@ function Contact() {
 const [name, setName] = useState("");
 const [email, setEmail] = useState("");
 const [message, setMessage] = useState("");
+
+
 const handleSubmit = (e) => {
     e.preventDefault();
     db.collection('contacts').add({
@@ -54,7 +56,7 @@ const handleSubmit = (e) => {
             </textarea>
 
             <button
-        type="submit">
+        type="submit" >
         Submit
       </button>
             </form>
