@@ -4,9 +4,21 @@ import './Contact.css'
 function Contact() {
     return (
         <div className="contact">
-            <div className="contact__content">
-            <h1>Contact</h1>
-            </div>
+            <form className="contact__form">
+            <h1>Contact Us</h1>
+            <label> Name </label>
+            <input placeholder ="name" />
+            <label> Email </label>
+            <input placeholder ="Email" />
+            <label>Message</label>
+            <textarea
+            placeholder="Message">
+            </textarea>
+            <button
+        type="submit">
+        Submit
+      </button>
+            </form>
       
         </div>
     )

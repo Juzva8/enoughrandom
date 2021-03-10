@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
-import logo from '../../Assets/logo.png';
+import logo from '../../Assets/logo2.png';
 
 
 function Header() {
