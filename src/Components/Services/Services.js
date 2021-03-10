@@ -6,22 +6,18 @@ function Services() {
     return (
         <div className="services">
          <div className="services__content">
-             <div className="services__content__image">
+             <a href="/haircut" className="services__content__image" rel="Haircut">
                  <img src={scissors} alt="scissors"/>
-             <h3>Hair cut</h3>
-             </div>
-             <div className="services__content__image">
+             </a>
+             <a className="services__content__image">
                  <img src={scissors} alt="scissors"/>
-             <h3>Make up</h3>
-             </div>
-             <div className="services__content__image">
+             </a>
+             <a className="services__content__image">
                  <img src={scissors} alt="scissors"/>
-             <h3>Microblading</h3>
-             </div>
-              <div className="services__content__image">
+             </a>
+              <a className="services__content__image">
                  <img src={scissors} alt="scissors"/>
-             <h3>Shading</h3>
-             </div>
+             </a>
            
          </div>
         </div>
