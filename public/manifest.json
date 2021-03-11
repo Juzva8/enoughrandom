@@ -3,17 +3,17 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "logo2.png",
+      "src": "logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo2.png",
+      "src": "logo.png",
       "type": "image/png",
-      "sizes": "16x16" 
+      "sizes": "192x192"
     },
     {
-      "src": "logo2.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
