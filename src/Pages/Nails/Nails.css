@@ -1,0 +1,16 @@
+.nails{
+    background-color: #fafafa;
+    padding: 10px 30px;
+    }
+
+h3{
+    color:black;
+}
+.nails__img {
+    object-fit: cover;
+    border-radius: 25px;
+    height: 600px;
+    width:100%;
+    position: inherit;
+
+}

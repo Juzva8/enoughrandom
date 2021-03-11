@@ -1,4 +1,16 @@
 .makeup{
 background-color: #fafafa;
-padding: 10px 180px;
+padding: 10px 30px;
+}
+h3{
+    color:black;
+}
+
+.makeup__img {
+    object-fit: cover;
+    border-radius: 25px;
+    height: 600px;
+    width:100%;
+    position: inherit;
+
 }
