@@ -1,5 +1,7 @@
-.haircut__content{
+.haircut{
     background-color: #fafafa;
-    
     padding: 10px 180px;
+}
+h3{
+    color:black;
 }
