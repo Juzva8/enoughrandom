@@ -5,7 +5,25 @@ function About() {
     return (
         <div className="about">
             <div className="about__content">
-            <h1>ABOUT</h1>
+            <p>
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip
+         
+         </p>
             </div>
         </div>
     )
