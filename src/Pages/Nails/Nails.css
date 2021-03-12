@@ -30,4 +30,7 @@ h3{
         width:100%;
         position: inherit;
     }
+    h3{
+        color:black;
+    }
 }
