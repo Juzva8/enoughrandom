@@ -21,3 +21,14 @@
     padding: 20px;
     border-bottom: none;
 }
+@media (max-width:500px){
+    .services__content{
+    margin-top: 200px; 
+    padding:40px;
+    display: flex;
+    align-items: center;
+    }
+    .services__content__image > img{
+        height:40px;
+    }
+  } 
