@@ -14,3 +14,18 @@ h3{
     position: inherit;
 
 }
+@media (max-width:500px){
+    .brows{
+    background-color: white;
+    margin-top: 20px; 
+    padding:40px;
+    display: flex;
+    align-items: center;
+    }
+    .brows__img{
+        object-fit: cover;
+        border-radius: 25px;
+        height: 300px;
+        width:100%;
+        position: inherit;
+    }}

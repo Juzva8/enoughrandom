@@ -28,8 +28,3 @@
   color: #61dafb;
 }
 
-@media (max-width:500px){
-  body {
-    background-color: #fafafa;
-  }
-} 

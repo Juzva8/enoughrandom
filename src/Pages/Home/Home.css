@@ -2,3 +2,11 @@
    background-color: #fafafa;
    padding: 10px 180px;
 }
+@media (max-width:500px){
+   .home__content{
+   background-color: white;
+   margin-top: 20px; 
+   padding:40px;
+   display: flex;
+   align-items: center;
+   }}
