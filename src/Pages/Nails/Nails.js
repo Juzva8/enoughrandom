@@ -42,6 +42,9 @@ function Nails() {
     </Carousel.Caption>
   </Carousel.Item>
   </Carousel>
+  <div>
+
+  </div>
         </div>
     )
 }
