@@ -8,8 +8,6 @@
 
 @media (max-width:500px){
     body {
-     
-      position: fixed !important;
       z-index: -1 !important;
 
     }

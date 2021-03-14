@@ -32,21 +32,18 @@ const handleSubmit = (e) => {
         <div className="contact">
             <form className="contact__form" onSubmit={handleSubmit} >
             <h1>Contact Us</h1>
-
             <label> Name </label>
             <input 
             placeholder ="Name" 
             value={name} 
             onChange={(e) => setName(e.target.value)} 
             />
-
             <label> Email </label>
             <input 
             placeholder ="Email" 
             value={email} 
             onChange={(e) => setEmail(e.target.value)} 
             />
-
             <label>Message</label>
             <textarea
             placeholder="Message"
@@ -54,7 +51,6 @@ const handleSubmit = (e) => {
             onChange={(e) => setMessage(e.target.value)} 
             >
             </textarea>
-
             <button
         type="submit" >
         Submit
