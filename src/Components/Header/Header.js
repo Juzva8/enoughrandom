@@ -1,25 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './Header.css'
-import { Navbar, Nav } from 'react-bootstrap';
+// import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
 import logo from '../../Assets/logo2.png';
 
+function Header(props) {
+  const [collapsed, setCollapsed] = useState(true);
 
-function Header() {
+  const toggleNavbar = () => setCollapsed(!collapsed);
+
     return (
         <div className="header">
-            <Navbar bg="light" expand="lg">
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-  <a href="/" className="Logo" rel="Home">
+
+
+<Navbar color="faded" light>
+<a href="/" className="Logo" rel="Home">
   <img  className = "img" src={logo} alt="Logo" />
   </a>
-    <Nav className="header__options">
-      <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="/about">About</Nav.Link>
-      <Nav.Link href="/contact">Contact</Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
+  
+    <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+    <Collapse isOpen={!collapsed} navbar>
+      <Nav navbar>
+      <NavItem>
+          <NavLink href="/">Home</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="/about">About Me</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="/gallery">Gallery</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="/pricing">Pricing</NavLink>
+        </NavItem>
+
+      </Nav>
+    </Collapse>
+  </Navbar>
+
+
         </div>
     )
 }

@@ -8,23 +8,33 @@
     box-shadow: 0px 5px 8px -9px  rgb(0, 0, 0, 0.75);
 }
 
+.navbar {
+    background-color: white;
+    color: rgba(108, 108, 108, 0.5);
+    display: flex;
+    /* flex: 1; */
+    /* justify-content: flex-end; */
+ 
+
+}
+
+.nav-link {
+    color: rgba(108, 108, 108, 0.5);
+    font-family: 'Proza Libre', sans-serif;
+    font-size: medium;
+    display: flex;
+    padding-right: 20px;
+    /* flex: 1; */
+    justify-content: flex-end;
+   
+}
 .img{
     object-fit: contain;
+    display: flex;
+    justify-content: space-evenly;
     height:70px;
     background-color: transparent;
     padding-right: 30px;  
   }
 
-  .header__options{
-    display: flex;
-    flex: 1;
 
-  }
-
-  .header__options:hover {
-    background-color: #eff2f5;
-    border-radius: 10px;
-    align-items: center;
-
-    border-bottom: none;
-}
