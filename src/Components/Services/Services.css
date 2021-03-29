@@ -1,6 +1,6 @@
 .services__content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #fafafa;
     border-radius: 15px 15px 0px 0px;
     padding:80px;
@@ -9,9 +9,7 @@
 }
 
 .services__content__image > img{
-    /* display: flex; */
     height:80px;
-    /* justify-content: center; */
 }
 
 .services__content__image:hover{

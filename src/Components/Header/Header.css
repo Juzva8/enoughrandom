@@ -12,10 +12,19 @@
     object-fit: contain;
     height:70px;
     background-color: transparent;
-    object-fit: contain;
-    padding-right: 30px;
-  
+    padding-right: 30px;  
   }
-  
 
-  
+  .header__options{
+    display: flex;
+    flex: 1;
+
+  }
+
+  .header__options:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+
+    border-bottom: none;
+}
