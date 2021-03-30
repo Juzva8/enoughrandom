@@ -1,0 +1,23 @@
+.footer{
+ 
+    padding: 0.03rem;
+    background-color: rgba(108, 108, 108);
+    color: white;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .icon-bar{
+  display: inline-block;
+
+  }
+
+a{
+  color:white;
+  padding: 0.5rem;
+
+}

@@ -31,7 +31,7 @@ function Header(props) {
           <NavLink href="/gallery">Gallery</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/pricing">Pricing</NavLink>
+          <NavLink href="/contact">Contact</NavLink>
         </NavItem>
 
       </Nav>
