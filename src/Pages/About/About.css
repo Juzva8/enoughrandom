@@ -10,7 +10,7 @@
 }
 
 .about_img{
-    /* display: flex; */
+    display: flex;
    
 }
 
@@ -28,21 +28,18 @@ h4 {
 } 
 @media (max-width:500px){
     .about{
-   width: 100%;
-    }
-    /* .about__content{
-        padding: 20px;
-        display: flex;
-        justify-content: center; 
-    } */
-
-/* 
-    .about__text{
-
-        width: 100%;
-        height:100%;
         background-color: #fafafa;
-        color: gray;
-      
-    } */
+        width: 100%;
+    }
+    .about__content{
+        width: 100%;
+        margin-right: 120px;
+    }
+    .about_img{
+        display: none;
+    }
+    .about__text{
+    line-height: 1.2;
+    }
+  
 }
