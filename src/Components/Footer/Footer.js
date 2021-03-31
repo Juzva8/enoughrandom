@@ -1,25 +1,24 @@
 import React from 'react'
 import './Footer.css'
 
+
 const Footer = () => (
     <div className="footer">
-   
                 <ul className="icon-bar">
-                    <a href="https://www.linkedin.com/in/laurynas-j-88427319a"target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-linkedin-in"></i>
+                    <a href="https://www.instagram.com/browsjungle/"target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
                     </a> {}
-                    <a href="mailto:laurynas.juzva@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://g.page/brows-jungle?share" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-google"></i>
                     </a>
                  {}
-                    <a href="https://github.com/Juzva8" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Juzva8/enoughrandom" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-github"></i>
                     </a>
-                    <a href='https://drive.google.com/file/d/1u9W15oR6jb04UaBh51WZL37UW5KJQrrR/view?usp=sharing' target="_blank" rel="noopener noreferrer">
-                    <i class="far fa-address-card"></i>
-                    </a>
                 </ul>
-              
+   <a href="https://www.legitenough.com/" target="_blank" className="copyright"rel="noopener noreferrer">COPYRIGHT © 2020 BROWS JUNGLE, LLC - ALL RIGHTS RESERVED.</a>
+   {}
+   <a href="https://browsjungle.com/"target="_blank"  className="POWERED" rel="noopener noreferrer">POWERED BY LEGITENOUGH.COM.</a>
   
     </div>
   );

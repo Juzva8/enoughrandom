@@ -1,4 +1,5 @@
 .brand__mainPicture > img{
+  margin-top: 25px;
     width: 100%;
     z-index: -1 !important;
     top: 65px;

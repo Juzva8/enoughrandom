@@ -1,7 +1,23 @@
-.about__content{
+.about{
     background-color: #fafafa;
     padding: 10px 180px;
 }
+
+
+.about__content{
+    margin-left: 50%;
+    width: 40%;
+    height:100%;
+    line-height: 2.5;
+    background-color: #fafafa;
+    color: gray;
+    text-align: center;
+}
+h4 {
+
+    color: black;
+
+} 
 @media (max-width:500px){
     .about__content{
     background-color: white;
