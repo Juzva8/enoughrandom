@@ -3,26 +3,46 @@
     padding: 10px 180px;
 }
 
-
 .about__content{
-    margin-left: 50%;
-    width: 40%;
+  padding: 20px;
+  display: flex;
+  justify-content: center; 
+}
+
+.about_img{
+    /* display: flex; */
+   
+}
+
+.about__text{
+    margin-left: 30%;
+    width: 60%;
     height:100%;
     line-height: 2.5;
     background-color: #fafafa;
     color: gray;
-    text-align: center;
+    text-align: center; 
 }
 h4 {
-
     color: black;
-
 } 
 @media (max-width:500px){
-    .about__content{
-    background-color: white;
-    margin-top: 20px; 
-    padding:40px;
-    display: flex;
-    align-items: center;
-    }}
+    .about{
+   width: 100%;
+    }
+    /* .about__content{
+        padding: 20px;
+        display: flex;
+        justify-content: center; 
+    } */
+
+/* 
+    .about__text{
+
+        width: 100%;
+        height:100%;
+        background-color: #fafafa;
+        color: gray;
+      
+    } */
+}

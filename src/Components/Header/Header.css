@@ -36,3 +36,9 @@
     background-color: transparent;
     padding-right: 30px;  
   }
+  @media (max-width:500px){
+    .img{
+        display: none;
+      }   
+      
+}

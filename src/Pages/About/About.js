@@ -1,11 +1,13 @@
 import React from 'react'
 import './About.css'
+import artist from '../../Assets/ER.png'
 
 function About() {
     return (
         <div className="about">
-            <div className="about__content">
-            <p>
+               <div className="about__content">
+                   <div className="about_img"><img src={artist} aria-hidden alt="Artist-image." /></div>
+       <div className="about__text">
             <h4>DEAR CLIENTS AND FRIENDS </h4>
             My name is <strong> 'NAME' </strong>, and I am excited to welcome you to
             Brows Jungle, LLC! 
@@ -18,9 +20,9 @@ function About() {
             If you are looking for a company that makes your brow satisfaction their top priority,
             Brows Jungle, LLC is the place for you! 
             I am looking forward to seeing you soon!  
-         </p>
+         </div>
             </div>
-        </div>
+            </div>
     )
 }
 

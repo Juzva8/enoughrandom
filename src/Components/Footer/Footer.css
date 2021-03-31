@@ -22,3 +22,29 @@ a{
   padding: 0.5rem;
 
 }
+@media (max-width:500px){
+
+  .footer{
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+  }
+  .copyright{
+    justify-content: space-evenly;
+    font-size: xx-small;
+    display: flex;
+    flex-direction:row;
+    padding-right: 2px;
+  }
+  .POWERED{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction:row;
+    font-size: xx-small;
+    padding-left: 10%;
+    
+  }
+  }

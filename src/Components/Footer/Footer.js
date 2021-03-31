@@ -16,9 +16,9 @@ const Footer = () => (
                     <i class="fab fa-github"></i>
                     </a>
                 </ul>
-   <a href="https://www.legitenough.com/" target="_blank" className="copyright"rel="noopener noreferrer">COPYRIGHT © 2020 BROWS JUNGLE, LLC - ALL RIGHTS RESERVED.</a>
+   <a href="https://browsjungle.com/" target="_blank" className="copyright"rel="noopener noreferrer">COPYRIGHT © 2020 BROWS JUNGLE, LLC - ALL RIGHTS RESERVED.</a>
    {}
-   <a href="https://browsjungle.com/"target="_blank"  className="POWERED" rel="noopener noreferrer">POWERED BY LEGITENOUGH.COM.</a>
+   <a href="https://www.legitenough.com/"target="_blank"  className="POWERED" rel="noopener noreferrer">POWERED BY LEGITENOUGH.COM.</a>
   
     </div>
   );

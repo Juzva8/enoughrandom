@@ -1,5 +1,5 @@
 .brand__mainPicture > img{
-  margin-top: 25px;
+    margin-top: 25px;
     width: 100%;
     z-index: -1 !important;
     top: 65px;
@@ -12,4 +12,12 @@
       z-index: -1 !important;
 
     }
+    .brand__mainPicture > img{
+      margin-top: 21%;
+      width: 100%;
+      z-index: -1 !important;
+      margin-top: -1px;
+      position: fixed !important;
+      
+  }
   } 
