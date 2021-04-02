@@ -28,7 +28,7 @@ const toggleNavbar = () => setCollapsed(!collapsed);
           <NavLink href="/about">About Me</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/gallery">Gallery</NavLink>
+          <NavLink href="/consent-forms">Consent Forms</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/contact">Contact</NavLink>

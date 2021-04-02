@@ -3,9 +3,10 @@ import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
 import About from './Pages/About/About'
 import Home from './Pages/Home/Home'
+import ConsentForms from './Pages/ConsentForms/ConsentForms'
+import Contact from './Pages/Contact/Contact'
 import Haircut from './Pages/Haircut/Haircut'
 import Makeup from './Pages/Makeup/Makeup'
-import Contact from './Pages/Contact/Contact'
 import Brows from './Pages/Brows/Brows'
 import Nails from './Pages/Nails/Nails'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -21,7 +22,8 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/home' exact component={Home} />
-        <Route path='/about' component={About} />      
+        <Route path='/about' component={About} />   
+        <Route path='/consent-forms' component={ConsentForms} />   
         <Route path='/contact' component={Contact} />
         <Route path='/haircut' component={Haircut} />
         <Route path='/makeup' component={Makeup} />
