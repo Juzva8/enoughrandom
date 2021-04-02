@@ -3,43 +3,12 @@
     padding: 10px 180px;
 }
 
-.about__content{
-  padding: 20px;
-  display: flex;
-  justify-content: center; 
-}
 
-.about_img{
-    display: flex;
-   
-}
 
-.about__text{
-    margin-left: 30%;
-    width: 60%;
-    height:100%;
-    line-height: 2.5;
-    background-color: #fafafa;
-    color: gray;
-    text-align: center; 
-}
-h4 {
-    color: black;
-} 
 @media (max-width:500px){
     .about{
         background-color: #fafafa;
-        width: 100%;
+        padding: 10px ;
+        text-align: center;
     }
-    .about__content{
-        width: 100%;
-        margin-right: 120px;
-    }
-    .about_img{
-        display: none;
-    }
-    .about__text{
-    line-height: 1.2;
-    }
-  
 }

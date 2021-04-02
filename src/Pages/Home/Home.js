@@ -4,7 +4,7 @@ import './Home.css'
 
 function Home() {
     return (
-        <div ClassName="home">
+        <div className="home">
          <div className="home__content">
            <p>
          Lorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet, consectetur adip Lorem Lorem ipsum dolor sit amet, consectetur adip

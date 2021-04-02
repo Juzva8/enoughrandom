@@ -4,10 +4,10 @@ import './Header.css'
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
 import logo from '../../Assets/logo2.png';
 
-function Header(props) {
-  const [collapsed, setCollapsed] = useState(true);
+function Header() {
 
-  const toggleNavbar = () => setCollapsed(!collapsed);
+const [collapsed, setCollapsed] = useState(true);
+const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
         <div className="header">
