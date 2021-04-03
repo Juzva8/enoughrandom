@@ -1,34 +1,32 @@
-.nails{
-    background-color: #fafafa;
-    padding: 10px 30px;
-    }
-
+.postcare{
+background-color: #fafafa;
+padding: 10px 30px;
+}
 h3{
     color:black;
 }
-.nails__img {
+
+.postcare__img {
     object-fit: cover;
     border-radius: 25px;
+    height: 600px;
     width:100%;
     position: inherit;
 
 }
-
 @media (max-width:500px){
-    .nails{
+    .postcare{
     background-color: white;
     margin-top: 20px; 
     padding:40px;
     display: flex;
     align-items: center;
     }
-    .nails__img{
-    object-fit: cover;
-    border-radius: 25px;
-    height: 300px;
-    width:100%;
-    }
-    h3{
-        color:black;
+    .postcare__img{
+        object-fit: cover;
+        border-radius: 25px;
+        height: 300px;
+        width:100%;
+        position: inherit;
     }
 }

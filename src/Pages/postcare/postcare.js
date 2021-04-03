@@ -1,18 +1,21 @@
 import React from 'react'
+import './postcare.css'
 import Carousel from 'react-bootstrap/Carousel'
-import './Haircut.css'
-import hair1 from '../../Assets/Hair/hair1.jpg'
-import hair2 from '../../Assets/Hair/hair2.jpg'
-import hair3 from '../../Assets/Hair/hair3.jpg'
+import makeup1 from '../../Assets/Makeup/makeup1.jpg'
+import makeup2 from '../../Assets/Makeup/makeup2.jpg'
+import makeup3 from '../../Assets/Makeup/makeup3.jpg'
 
-function Haircut() {
+
+
+function postcare() {
     return (
-        <div className="haircut">
+        <div className="makeup">
+            
             <Carousel fade>
   <Carousel.Item>
     <img
-      className="haircut__img"
-      src={hair1}
+      className="postcare__img"
+      src={makeup1}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -21,8 +24,8 @@ function Haircut() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="haircut__img"
-      src={hair2}
+      className="postcare__img"
+      src={makeup2}
       alt="Second slide"
     />
 
@@ -32,8 +35,8 @@ function Haircut() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="haircut__img"
-      src={hair3}
+      className="postcare__img"
+      src={makeup3}
       alt="Third slide"
     />
 
@@ -42,11 +45,8 @@ function Haircut() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-</div>
-
-            
-  
+        </div>
     )
 }
 
-export default Haircut
+export default postcare

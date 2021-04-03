@@ -1,21 +1,18 @@
 import React from 'react'
-import './Makeup.css'
+import './pricing.css'
 import Carousel from 'react-bootstrap/Carousel'
-import makeup1 from '../../Assets/Makeup/makeup1.jpg'
-import makeup2 from '../../Assets/Makeup/makeup2.jpg'
-import makeup3 from '../../Assets/Makeup/makeup3.jpg'
+import nails1 from '../../Assets/Nails/nails1.jpeg'
+import nails2 from '../../Assets/Nails/nails1.jpeg'
+import nails3 from '../../Assets/Nails/nails1.jpeg'
 
-
-
-function Makeup() {
+function pricing() {
     return (
-        <div className="makeup">
-            
+        <div className="pricing">
             <Carousel fade>
   <Carousel.Item>
     <img
-      className="makeup__img"
-      src={makeup1}
+      className="pricing__img"
+      src={nails1}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -24,8 +21,8 @@ function Makeup() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="makeup__img"
-      src={makeup2}
+      className="pricing__img"
+      src={nails2}
       alt="Second slide"
     />
 
@@ -35,8 +32,8 @@ function Makeup() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="makeup__img"
-      src={makeup3}
+      className="pricing__img"
+      src={nails3}
       alt="Third slide"
     />
 
@@ -44,9 +41,12 @@ function Makeup() {
       <h3>Third slide label</h3>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel>
+  </Carousel>
+  <div>
+
+  </div>
         </div>
     )
 }
 
-export default Makeup
+export default pricing

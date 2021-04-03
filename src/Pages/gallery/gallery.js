@@ -1,18 +1,18 @@
 import React from 'react'
-import './Brows.css'
 import Carousel from 'react-bootstrap/Carousel'
-import brows1 from '../../Assets/Brows/brows1.png'
-import brows2 from '../../Assets/Brows/brows2.jpg'
-import brows3 from '../../Assets/Brows/brows3.jpg'
+import './gallery.css'
+import hair1 from '../../Assets/Hair/hair1.jpg'
+import hair2 from '../../Assets/Hair/hair2.jpg'
+import hair3 from '../../Assets/Hair/hair3.jpg'
 
-function Brows() {
+function gallery() {
     return (
-        <div className="brows">
-   <Carousel fade>
+        <div className="gallery">
+            <Carousel fade>
   <Carousel.Item>
     <img
-      className="brows__img"
-      src={brows1}
+      className="gallery__img"
+      src={hair1}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -21,8 +21,8 @@ function Brows() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="brows__img"
-      src={brows2}
+      className="gallery__img"
+      src={hair2}
       alt="Second slide"
     />
 
@@ -32,8 +32,8 @@ function Brows() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="brows__img"
-      src={brows3}
+      className="gallery__img"
+      src={hair3}
       alt="Third slide"
     />
 
@@ -42,8 +42,11 @@ function Brows() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-        </div>
+</div>
+
+            
+  
     )
 }
 
-export default Brows
+export default gallery

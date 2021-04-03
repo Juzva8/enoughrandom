@@ -1,18 +1,18 @@
 import React from 'react'
-import './Nails.css'
+import './candidate.css'
 import Carousel from 'react-bootstrap/Carousel'
-import nails1 from '../../Assets/Nails/nails1.jpeg'
-import nails2 from '../../Assets/Nails/nails1.jpeg'
-import nails3 from '../../Assets/Nails/nails1.jpeg'
+import brows1 from '../../Assets/Brows/brows1.png'
+import brows2 from '../../Assets/Brows/brows2.jpg'
+import brows3 from '../../Assets/Brows/brows3.jpg'
 
-function Nails() {
+function candidate() {
     return (
-        <div className="nails">
-            <Carousel fade>
+        <div className="brows">
+   <Carousel fade>
   <Carousel.Item>
     <img
-      className="nails__img"
-      src={nails1}
+      className="brows__img"
+      src={brows1}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -21,8 +21,8 @@ function Nails() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="nails__img"
-      src={nails2}
+      className="brows__img"
+      src={brows2}
       alt="Second slide"
     />
 
@@ -32,8 +32,8 @@ function Nails() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="nails__img"
-      src={nails3}
+      className="brows__img"
+      src={brows3}
       alt="Third slide"
     />
 
@@ -41,12 +41,9 @@ function Nails() {
       <h3>Third slide label</h3>
     </Carousel.Caption>
   </Carousel.Item>
-  </Carousel>
-  <div>
-
-  </div>
+</Carousel>
         </div>
     )
 }
 
-export default Nails
+export default candidate

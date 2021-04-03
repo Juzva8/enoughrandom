@@ -1,12 +1,12 @@
-.haircut{
+.pricing{
     background-color: #fafafa;
     padding: 10px 30px;
-}
+    }
+
 h3{
     color:black;
 }
-
-.haircut__img {
+.pricing__img{
     object-fit: cover;
     border-radius: 25px;
     height: 600px;
@@ -16,18 +16,20 @@ h3{
 }
 
 @media (max-width:500px){
-    .haircut{
+    .pricing{
     background-color: white;
     margin-top: 20px; 
     padding:40px;
     display: flex;
     align-items: center;
     }
-    .haircut__img{
-        object-fit: cover;
-        border-radius: 25px;
-        height: 300px;
-        width:100%;
-        position: inherit;
+    .pricing__img{
+    object-fit: cover;
+    border-radius: 25px;
+    height: 300px;
+    width:100%;
+    }
+    h3{
+        color:black;
     }
 }

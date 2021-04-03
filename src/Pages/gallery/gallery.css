@@ -1,12 +1,12 @@
-.makeup{
-background-color: #fafafa;
-padding: 10px 30px;
+.gallery{
+    background-color: #fafafa;
+    padding: 10px 30px;
 }
 h3{
     color:black;
 }
 
-.makeup__img {
+.gallery__img {
     object-fit: cover;
     border-radius: 25px;
     height: 600px;
@@ -14,15 +14,16 @@ h3{
     position: inherit;
 
 }
+
 @media (max-width:500px){
-    .makeup{
+    .gallery{
     background-color: white;
     margin-top: 20px; 
     padding:40px;
     display: flex;
     align-items: center;
     }
-    .makeup__img{
+    .gallery__img{
         object-fit: cover;
         border-radius: 25px;
         height: 300px;
