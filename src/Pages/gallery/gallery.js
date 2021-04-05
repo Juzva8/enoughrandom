@@ -8,6 +8,7 @@ import hair3 from '../../Assets/Hair/hair3.jpg'
 function gallery() {
     return (
         <div className="gallery">
+          <h2>PHOTO GALLERY</h2>
             <Carousel fade>
   <Carousel.Item>
     <img
