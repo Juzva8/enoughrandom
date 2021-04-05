@@ -1,15 +1,20 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel'
+import ImageSlider from '../../Components/ImageSlider/ImageSlider'
 import './gallery.css'
-import hair1 from '../../Assets/Hair/hair1.jpg'
-import hair2 from '../../Assets/Hair/hair2.jpg'
-import hair3 from '../../Assets/Hair/hair3.jpg'
+// import Carousel from 'react-bootstrap/Carousel'
+// import model_1 from '../../Assets/Gallery/1.jpg'
+// import model_2 from '../../Assets/Gallery/2.jpg'
+// import model_3 from '../../Assets/Gallery/3.jpg'
+// import model_4 from '../../Assets/Gallery/4.jpg'
+// import model_5 from '../../Assets/Gallery/5.jpg'
+// import model_6 from '../../Assets/Gallery/6.jpg'
 
 function gallery() {
     return (
         <div className="gallery">
           <h2>PHOTO GALLERY</h2>
-            <Carousel fade>
+          <ImageSlider />
+            {/* <Carousel fade>
   <Carousel.Item>
     <img
       className="gallery__img"
@@ -42,7 +47,7 @@ function gallery() {
       <h3>Third slide label</h3>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel>
+</Carousel> */}
 </div>
 
             
