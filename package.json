@@ -22,6 +22,7 @@
     "react-slick": "^0.28.1",
     "reactstrap": "^8.9.0",
     "slick-carousel": "^1.8.1",
+    "swiper": "^6.5.4",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
