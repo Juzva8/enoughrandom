@@ -9,7 +9,7 @@ const styles = {
       fontSize: "22px",
     },
     artist: {
-        boxShadow: "5px 5px 20px -5px blue",
+        boxShadow: "5px 5px 20px -5px red",
         borderRadius: "25px"
     },
   };

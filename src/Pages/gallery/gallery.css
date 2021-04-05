@@ -1,30 +1,14 @@
 .gallery{
     background-color: #fafafa;
     padding: 10px 30px;
+    
 }
-h3{
- color:black;
-}
+
 h2{
 text-align: center;
+padding-top: 30px;
 font-size:50px;
 font-weight:bold;
-}
-
-.gallery_carousel{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-
-}
-
-.gallery__img {
-    object-fit: cover;
-    border-radius: 25px;
-    height: 900px;
-    width:100%;
-    position: inherit;
 }
 
 
@@ -37,20 +21,9 @@ font-weight:bold;
     display: flex;
     align-items: center;
     }
-    .gallery__img{
-        object-fit: cover;
-        border-radius: 25px;
-        height: 300px;
-        width:100%;
-        position: inherit;
-    }
     h2{
         text-align: center;
         font-size:10px;
         font-weight:bold;
         }
-        h3{
-            color:black;
-            font-size:10px;
-           }
 }
