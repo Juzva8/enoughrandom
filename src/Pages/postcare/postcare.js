@@ -7,12 +7,12 @@ import postCare from '../../Assets/post-care.jpg';
 const styles = {
 
   preCare: {
-      boxShadow: "5px 5px 20px -5px red",
+      boxShadow: "5px 5px 20px -5px black",
       borderRadius: "25px"
   },
   postCare: {
-    boxShadow: "5px 5px 20px -5px red",
-    borderRadius: "25px"
+    boxShadow: "5px 5px 20px -5px black",
+      borderRadius: "25px"
 },
 };
 function postcare() {

@@ -22,8 +22,7 @@
     h6{
         padding: 10px 40px
      }
-
-    .img-fluid{
+    .img-fluid-candidate{
         height: 500px;
         width: 80%;
         display: block;
@@ -42,7 +41,7 @@
         padding: 0px;
         }
    
-    .img-fluid{
+    .img-fluid-candidate{
     width: 100%;
     padding: 0px;
 
