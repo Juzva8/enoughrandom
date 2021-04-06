@@ -5,7 +5,7 @@ import skinType from '../../Assets/skinType.png';
 
 function candidate() {
     return (
-        <div className="brows">
+        <div className="candidate">
     <h1>AM I A GOOD CANDIDATE FOR PERMANENT MAKEUP?</h1>
     <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
