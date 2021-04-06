@@ -2,19 +2,44 @@
     background-color: #fafafa;
     padding: 10px 30px;
     }
-
+    ul{
+        padding: 40px
+    }
     h1{
         text-align: center;
         font-weight: bold;
         padding: 5px ;
     }
+    h4{
+        text-align: center;
+        font-weight: bold;
+        padding: 5px ;
+    }
+    h5{
+        
+        padding: 40px 40px 0px
+    }
+    h6{
+        padding: 10px 40px
+     }
+
+    .img-fluid{
+        height: 500px;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;     
+    }
 @media (max-width:500px){
    
     h1{
         text-align: center;
-        font-size:20px;
-        font-weight: bold;
-        padding: 5px ;
+        font-size:10px;
+        padding: 1px ;
+    }
+    .img-fluid{
+       opacity: 0;;
+       
     }
 
   }
