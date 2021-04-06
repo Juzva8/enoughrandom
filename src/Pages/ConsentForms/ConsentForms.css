@@ -2,13 +2,13 @@
     background-color: #fafafa;
     text-align: center;
     padding: 10px 180px;
-    
 }
 
 h1{
     text-align: center;
     font-weight: bold;
     margin: 50px 0px;
+
 }
 
 Button{
@@ -36,12 +36,44 @@ Button{
 }
 
 @media (max-width:500px){
-   
-    h1{
-        text-align: center;
-        font-size:20px;
-        font-weight: bold;
-        padding: 5px ;
-    }
+
+  .ConsentForms{
+    background-color: #fafafa;
+    width: 100%;
+
+    padding: 10px;
+  }
+    
+h1{
+    
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0px;
+
+}
+
+Button{
+    max-width: 80%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #202020;
+}
+.btn{
+    background-color: #202020;
+    border-radius:10px;
+    text-align: left;
+}
+.btn:hover{
+    background-color: #fafafa;
+    color: black;
+    font-weight:bold;
+}
+.ConsentForms__button{
+    margin: 60px 0px;
+    padding: 10px;
+    background-color: #fafafa;
+}
 
   }
