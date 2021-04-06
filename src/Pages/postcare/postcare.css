@@ -2,18 +2,23 @@
 background-color: #fafafa;
 padding: 10px 30px;
 }
+.row{
+    padding: 40px 80px;
+    line-height: 1.5em;
+}
+
 h3{
-    color:black;
-}
-
-.postcare__img {
-    object-fit: cover;
-    border-radius: 25px;
-    height: 600px;
-    width:100%;
-    position: inherit;
+  
+    line-height: 1.5em;
 
 }
+h4{
+    line-height: 2.5em;
+}
+h5{
+    line-height: 1.5em;
+}
+
 @media (max-width:500px){
     .postcare{
     background-color: white;
