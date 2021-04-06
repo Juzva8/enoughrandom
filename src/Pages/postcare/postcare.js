@@ -18,6 +18,7 @@ const styles = {
 function postcare() {
     return (
       <div className="postcare">
+        <h1> Pre and Post Care</h1>
       <div className="row">
         <div className="col-12 col-lg-7 pl-lg-0 pr-lg-5">
           <h3>BEFORE THE PROCEDURE</h3>
