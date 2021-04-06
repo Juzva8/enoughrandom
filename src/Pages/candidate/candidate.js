@@ -1,47 +1,21 @@
 import React from 'react'
 import './candidate.css'
-import Carousel from 'react-bootstrap/Carousel'
-import brows1 from '../../Assets/Brows/brows1.png'
-import brows2 from '../../Assets/Brows/brows2.jpg'
-import brows3 from '../../Assets/Brows/brows3.jpg'
+import doctor from '../../Assets/doctor.png';
+import skinType from '../../Assets/skinType.png';
 
 function candidate() {
     return (
         <div className="brows">
-   <Carousel fade>
-  <Carousel.Item>
-    <img
-      className="brows__img"
-      src={brows1}
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="brows__img"
-      src={brows2}
-      alt="Second slide"
-    />
+    <h1>AM I A GOOD CANDIDATE FOR PERMANENT MAKEUP?</h1>
+    <div className="row">
+        <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
+        <img src={skinType} alt="skinType" className="img-fluid mb-xl-6"/>
+          </div>
+          <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
+          <img src={doctor} alt="doctor" className="img-fluid mb-xl-6"/>
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="brows__img"
-      src={brows3}
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+          </div>
+          </div>
         </div>
     )
 }

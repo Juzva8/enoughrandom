@@ -3,29 +3,18 @@
     padding: 10px 30px;
     }
 
-h3{
-    color:black;
-}
-.brows__img {
-    object-fit: cover;
-    border-radius: 25px;
-    height: 600px;
-    width:100%;
-    position: inherit;
-
-}
-@media (max-width:500px){
-    .brows{
-    background-color: white;
-    margin-top: 20px; 
-    padding:40px;
-    display: flex;
-    align-items: center;
+    h1{
+        text-align: center;
+        font-weight: bold;
+        padding: 5px ;
     }
-    .brows__img{
-        object-fit: cover;
-        border-radius: 25px;
-        height: 300px;
-        width:100%;
-        position: inherit;
-    }}
+@media (max-width:500px){
+   
+    h1{
+        text-align: center;
+        font-size:20px;
+        font-weight: bold;
+        padding: 5px ;
+    }
+
+  }
