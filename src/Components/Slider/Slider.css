@@ -39,7 +39,7 @@
 }
 
 .arrow svg:hover {
-  color: red;
+  color: black;
 }
 
 .next {
@@ -50,4 +50,61 @@
 .prev {
   left: 0%;
   top: 50%;
+}
+@media (max-width:500px){
+   
+  .Slider {
+    width: 80%;
+    margin: 1rem auto;
+    height: 570px;
+  
+  }
+  .slide img {
+    width: 20rem;
+    margin: 0 auto;
+    border-radius: 25px;
+  }
+  
+  .slide {
+    padding: 30px;
+    transform: scale(0.2);
+    transition: transform 300ms;
+    opacity: 0;
+    border-radius: 25px;
+  
+  }
+  
+  .activeSlide {
+
+    transform: scale(1.1);
+    opacity: 1;
+    align-items: center;
+ 
+  }
+  
+  .arrow {
+    background-color: none;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .arrow svg {
+    transition: color 400ms;
+  }
+  
+  .arrow svg:hover {
+    color: black;
+  }
+  
+  .next {
+    right: 0%;
+    top: 50%;
+  }
+  
+  .prev {
+    left: 0%;
+    top: 50%;
+  }
+
 }

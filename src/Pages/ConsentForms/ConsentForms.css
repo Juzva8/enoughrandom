@@ -25,7 +25,9 @@ Button{
     text-align: left;
 }
 .btn:hover{
-    background-color:rgba(108, 108, 108, 0.5);
+    background-color: #fafafa;
+    color: black;
+    font-weight:bold;
 }
 .ConsentForms__button{
     margin: 60px 0px;

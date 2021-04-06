@@ -31,20 +31,19 @@
     }
 @media (max-width:500px){
     .row{
-        padding: 5px;
-        margin: 5px;
+    padding: 5px;
+    margin: 5px;
     }
 
 
     .candidate{
-        background-color: #fafafa;
-        padding: 0px;
-        }
+    background-color: #fafafa;
+    padding: 0px;
+    }
    
     .img-fluid-candidate{
     width: 100%;
     padding: 0px;
-
     }
     ul{
     padding: 5px

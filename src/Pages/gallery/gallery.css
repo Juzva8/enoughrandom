@@ -4,7 +4,7 @@
     
 }
 
-h2{
+.gallery__text{
 text-align: center;
 padding-top: 30px;
 font-size:50px;
@@ -15,15 +15,16 @@ font-weight:bold;
 
 @media (max-width:500px){
     .gallery{
-    background-color: white;
-    margin-top: 20px; 
+    background-color: #fafafa;
     padding:40px;
-    display: flex;
     align-items: center;
     }
-    h2{
+    .gallery__text{
+        background-color: #fafafa;
+        margin-top: 20px;
+        display: inline;
         text-align: center;
         font-size:10px;
-        font-weight:bold;
+      
         }
 }
