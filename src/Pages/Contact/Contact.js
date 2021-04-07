@@ -59,8 +59,6 @@ const handleSubmit = (e) => {
             <h2>Brows Jungle, LLC</h2>
             <p>Email: browsjungle@yahoo.com</p>
             <p>Mob.: ‪(747) 224-7451‬</p>
-            <p>Instagram: @browsjungle</p>
-
       
         </div>
     )
