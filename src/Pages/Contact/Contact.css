@@ -31,11 +31,15 @@
   .contact__form > input:focus,
   textarea:focus {
     border: 1px solid black;
+    outline: none;
+
+
   }
   
   .contact__form > textarea {
     height: 150px;
     max-width: 400px;
+    
     min-height: 100px;
   }
   
@@ -43,6 +47,8 @@
     padding-bottom: 10px;
     color: black;
     font-weight: bold;
+
+
   }
   
   .contact__form > button {
