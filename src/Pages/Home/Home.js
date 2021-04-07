@@ -8,9 +8,6 @@ function Home() {
          <Typewriter 
          onInit = {(typewriter) => {
            typewriter
-           .typeString("GET MICROBLADING! ")
-           .pauseFor(2000)
-           .deleteAll()
            .typeString("LET'S ENHANCE AND HIGHLIGHT YOUR NATURAL BEAUTY!")
            .start()
          }}
