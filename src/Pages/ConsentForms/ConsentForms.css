@@ -11,17 +11,14 @@ h1{
 
 }
 
-Button{
+
+.btn{
     max-width:60%;
     align-items: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: #202020;
-}
-.btn{
-    background-color: #202020;
-    border-radius:10px;
     text-align: left;
 }
 .btn:hover{
@@ -40,8 +37,7 @@ Button{
   .ConsentForms{
     background-color: #fafafa;
     width: 100%;
-
-    padding: 10px;
+    padding: 0px 10px;
   }
     
 h1{
@@ -52,17 +48,14 @@ h1{
 
 }
 
-Button{
-    max-width: 80%;
+
+.btn{
+    max-width: 100%;
     align-items: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: #202020;
-}
-.btn{
-    background-color: #202020;
-    border-radius:10px;
     text-align: left;
 }
 .btn:hover{

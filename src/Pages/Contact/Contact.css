@@ -60,20 +60,29 @@
   }
   
   .contact__form > button:hover {
-    background-color: black;
-    border: none;
+    background-color: #fafafa;
+    color: black;
+    border: 2px solid black;
+    font-weight:bolder;
+  }
+  h2{
+    text-align: center;
+    padding-bottom: 20px;
+
+  }
+  p{
+    text-align: center;
+    padding: 0px;
   }
 
   
   @media (max-width:500px){
     .contact{
       background-color: #fff;
-      margin-top: 20px; 
-      padding:40px;
+      margin-top: 0px; 
+      padding:10px;
       display: flex;
       align-items: center;
-   
-    align-items: center;
     }
     .contact__form {
       height: 100vh;
@@ -110,6 +119,13 @@
       transition: 0.2s ease-in-out;
       margin-top: 5px;
       border: none;
+    }
+    h2{
+     display: none;
+  
+    }
+    p{
+      display: none;
     }
     
   }
