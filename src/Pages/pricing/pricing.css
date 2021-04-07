@@ -5,31 +5,47 @@
 
 h3{
     color:black;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align:left;
+  
 }
-.pricing__img{
-    object-fit: cover;
-    border-radius: 25px;
-    height: 600px;
-    width:100%;
-    position: inherit;
-
+.pricing__paragraph{
+opacity: 1!important;
+padding: 20px;
+padding-bottom: -10px;
+display: block;
+width: 60%;
+padding-left: 180px;
+text-align:left!important;
+} 
+.pricing__touchup{
+    opacity: 1!important;
+    padding: 20px;
+    padding-bottom: -10px;
+    display: block;
+    width: 80%;
+    padding-left: 180px;
+    text-align:left!important;
 }
 
 @media (max-width:500px){
     .pricing{
-    background-color: white;
-    margin-top: 20px; 
-    padding:40px;
-    display: flex;
+    background-color: #fafafa;
+    padding: 10px 30px;
     align-items: center;
     }
-    .pricing__img{
-    object-fit: cover;
-    border-radius: 25px;
-    height: 300px;
-    width:100%;
-    }
+   
     h3{
         color:black;
     }
+   .pricing__paragraph{
+
+       opacity: 1!important;
+       padding: 20px;
+       font-size: 10px;
+     
+   } 
 }

@@ -1,12 +1,18 @@
-.home__content{
+.home{
    background-color: #fafafa;
-   padding: 10px 180px;
+   padding-top: 100px;
+   padding-bottom: 140px;
+   font-size: 45px;
+   font-weight: bold;
+   text-align: center;
 }
 @media (max-width:500px){
-   .home__content{
-   background-color: white;
-   margin-top: 20px; 
-   padding:40px;
-   display: flex;
-   align-items: center;
-   }}
+   .home{
+      background-color: #fafafa;
+      padding-top: 100px;
+      padding-bottom: 140px;
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+   }
+}
