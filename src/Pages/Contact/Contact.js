@@ -1,54 +1,41 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Contact.css'
-import { db } from '../../firebase'
+import emailjs from "emailjs-com";
 
-function Contact() {
+export default function Contact() {
 
-const [name, setName] = useState("");
-const [email, setEmail] = useState("");
-const [message, setMessage] = useState("");
+    function sendEmail(e) {
 
+      e.preventDefault();
 
-const handleSubmit = (e) => {
-    e.preventDefault();
-    db.collection('contacts').add({
-    name: name,
-    email: email,
-    message: message,
-
-    })
-    .then(() =>{
-        alert('Message has been submitted');
-    })
-    .catch(error => {
-        alert('Error.message');
-    });
-    setName('')
-    setEmail('')
-    setMessage('')
-};
+      emailjs.sendForm('Browsjungle', 'template_fv1y4ct', e.target, 'user_CTfSaUyLCF3sUFtRUIZTC')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+    }
 
     return (
         <div className="contact">
-            <form className="contact__form" onSubmit={handleSubmit} >
+            <form className="contact__form" onSubmit={sendEmail}>
             <h1>Contact Us</h1>
             <label> Name </label>
             <input 
             placeholder ="Name" 
-            value={name} 
-            onChange={(e) => setName(e.target.value)} 
             />
             <label> Email </label>
             <input 
             placeholder ="Email" 
-            value={email} 
-            onChange={(e) => setEmail(e.target.value)} 
+            />
+              <label> Subject </label>
+            <input 
+            placeholder ="Subject" 
             />
             <label>Message</label>
             <textarea
             placeholder="Message"
-            value={message} 
-            onChange={(e) => setMessage(e.target.value)} 
             >
             </textarea>
             <button
@@ -61,7 +48,5 @@ const handleSubmit = (e) => {
             <p>Mob.: ‪(747) 224-7451‬</p>
       
         </div>
-    )
-}
-
-export default Contact
+)
+    }

@@ -10,6 +10,8 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "emailjs": "^3.4.0",
+    "emailjs-com": "^2.6.4",
     "firebase": "^8.2.10",
     "firebase-tools": "^9.6.0",
     "googleapis": "^71.0.0",
