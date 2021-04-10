@@ -2,6 +2,9 @@
     background-color: #fafafa;
     padding: 10px 180px;
 }
+#artist{
+    height: 700px;
+}
 
 @media (max-width:500px){
     .about{
