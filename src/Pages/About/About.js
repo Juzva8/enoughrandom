@@ -23,7 +23,7 @@ const styles = {
             DEAR CLIENTS AND FRIENDS
             </h4>
             <h5 className="text-black mb-5" style={styles.main}>
-            My name is <strong> 'NAME' </strong>, and I am excited to welcome you to
+            My name is <strong> Erika </strong>, and I am excited to welcome you to
             Beauty Salon, LLC! 
 I honestly believe that brows can make or break any look, and my passion for what I do,
 combined with the desire to be the best, distinguishes me from other artists.

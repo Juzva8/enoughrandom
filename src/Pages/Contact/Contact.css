@@ -125,6 +125,7 @@
       transition: 0.2s ease-in-out;
       margin-top: 5px;
       border: none;
+      outline: none;
     }
     h2{
      display: none;
