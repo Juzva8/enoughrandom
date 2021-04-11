@@ -5,7 +5,6 @@ import emailjs from "emailjs-com";
 export default function Contact() {
 
     function sendEmail(e) {
-
       e.preventDefault();
 
       emailjs.sendForm('Browsjungle', 'template_fv1y4ct', e.target, 'user_CTfSaUyLCF3sUFtRUIZTC')
@@ -16,7 +15,6 @@ export default function Contact() {
         });
         e.target.reset();
     }
-
     return (
         <div className="contact">
             <form className="contact__form" onSubmit={sendEmail}>
