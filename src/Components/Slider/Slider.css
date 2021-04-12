@@ -55,6 +55,7 @@
    
   .Slider {
     width: 80%;
+    max-height: 400px;
     margin: 1rem auto;
     height: 570px;
   
