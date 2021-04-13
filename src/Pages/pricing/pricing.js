@@ -5,7 +5,7 @@ import './pricing.css'
 function pricing() {
     return (
         <div className="pricing">
-           <h1>SERVICES & PRICING</h1>
+           <h1 className="pricing__h1">SERVICES & PRICING</h1>
     <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <h3>Microblading</h3>
@@ -36,7 +36,7 @@ function pricing() {
    <div className="pricing__paragraph"><p>Powder brows can be done as light as a brow tint or as dark as glam. 
        Recommended for those who want a completely "filled in" brow! Best for ALL skin types. </p></div>
    </div>
-   <h1>Touch ups</h1>
+   <h1 className="pricing__h1">Touch ups</h1>
    <div className="pricing__touchup">
   <h6><strong>Touch ups also make an essential part of permanent makeup treatment. You can lose 30% to 60% of the color and intensity as the skin heals. 
       Touch up procedures are to fill, correct, and darken to provide the desired look.</strong></h6>

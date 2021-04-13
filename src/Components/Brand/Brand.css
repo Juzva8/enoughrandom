@@ -4,20 +4,22 @@
     z-index: -1 !important;
     top: 65px;
     position: fixed !important;
-    
+    margin-top: -10px;
 }
 
 @media (max-width:500px){
     body {
       z-index: -1 !important;
+      padding:0px;
 
     }
     .brand__mainPicture > img{
-      margin-top: 21%;
+
       width: 100%;
       z-index: -1 !important;
-      margin-top: -1px;
+      margin-top: -10px;
       position: fixed !important;
+      padding-bottom: -40px; 
       
   }
   } 

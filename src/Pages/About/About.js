@@ -13,7 +13,6 @@ const styles = {
         borderRadius: "25px"
     },
   };
-  
   function About() {
     return (
       <div className="about">
@@ -39,7 +38,6 @@ I am looking forward to seeing you soon!
           <Zoom>
           <div className="col-12 ml-md-5 ml-lg-0 pl-md-5 pl-lg-0 col-lg-5 mt-lg-5 mt-xl-3 pt-lg-5 pt-xl-0 pr-lg-0">
               <img id="artist" src={artist} alt="Artist" className="img-fluid mb-xl-5" style={styles.artist} />
-              
           </div>
           </Zoom>
         </div>  

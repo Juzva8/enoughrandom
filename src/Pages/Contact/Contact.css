@@ -84,8 +84,8 @@
   
   @media (max-width:500px){
     .contact{
-      background-color: #fff;
-      margin-top: 0px; 
+      background-color: #fafafa;
+      margin-top: -140px; 
       padding:10px;
       display: flex;
       align-items: center;
@@ -100,6 +100,7 @@
       height: 100vh;
     }
     .contact__form > h1 {
+  
       margin-bottom: 10px;
     }
     .form > input,
@@ -109,7 +110,7 @@
       margin-bottom: 5px;
       border: 1px solid black;
       background: #fff;
-      font-size: 6px;
+      font-size: 18px;
       color: black;
       outline: none;
     }
@@ -118,7 +119,7 @@
       border: none;
       background-color: black;
       font-weight: 200;
-      font-size: 10px;
+      font-size: 15px;
       border-radius: 3px;
       color: #fff;
       cursor: pointer;
