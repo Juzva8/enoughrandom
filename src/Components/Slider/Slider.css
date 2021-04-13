@@ -58,12 +58,14 @@
     max-height: 400px;
     margin-top: 0 ;
     height: 570px;
+    
   
   }
   .slide img {
-    width: 20rem;
+    width: 40rem;
     padding: 0 auto;
     border-radius: 25px;
+
 
 
   }
@@ -82,7 +84,7 @@
     transform: scale(1.1);
     opacity: 1;
     align-items: center;
- 
+    object-fit: overlay;
   }
   
   .arrow {

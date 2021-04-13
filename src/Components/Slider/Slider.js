@@ -12,7 +12,6 @@ import model_6 from '../../Assets/Gallery/6.jpg'
 
 const images = [ model_1, model_2, model_3, model_4, model_5, model_6]
 
-
 function SliderComponent() {
 
   const NextArrow = ({ onClick }) => {
