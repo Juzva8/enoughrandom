@@ -16,8 +16,10 @@ font-weight:bold;
 @media (max-width:500px){
     .gallery{
     background-color: #fafafa;
-    padding:40px;
+    padding:0px;
+    margin: 0px;
     align-items: center;
+
     }
     .gallery__text{
         background-color: #fafafa;

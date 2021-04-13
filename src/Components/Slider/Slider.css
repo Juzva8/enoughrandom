@@ -54,16 +54,18 @@
 @media (max-width:500px){
    
   .Slider {
-    width: 80%;
+    width: 100%;
     max-height: 400px;
-    margin: 1rem auto;
+    margin-top: 0 ;
     height: 570px;
   
   }
   .slide img {
     width: 20rem;
-    margin: 0 auto;
+    padding: 0 auto;
     border-radius: 25px;
+
+
   }
   
   .slide {

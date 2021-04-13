@@ -50,7 +50,7 @@ function SliderComponent() {
       <Slider {...settings}>
         {images.map((img, idx) => (
           <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-            <img src={img} alt={img} />
+            <img className="Slider_image" src={img} alt={img} />
           </div>
         ))}
       </Slider>
