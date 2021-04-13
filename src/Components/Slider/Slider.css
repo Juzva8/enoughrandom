@@ -54,37 +54,39 @@
 @media (max-width:500px){
    
   .Slider {
-    width: 100%;
-    max-height: 400px;
-    margin-top: 0 ;
-    height: 570px;
-    
-  
+    height: 100vh; 
+    width:  100vw;
+    margin: 0px ;
+    margin-bottom: -120px;
+
   }
+
   .slide img {
-    width: 40rem;
-    padding: 0 auto;
-    border-radius: 25px;
+    width: 100%;
+    padding: 0px;
+    border-radius: 5px;
 
-
-
-  }
+    }
   
   .slide {
-    padding: 30px;
-    transform: scale(0.2);
-    transition: transform 300ms;
+    height: 500px;
+    padding: 40px;
+    display: none;
     opacity: 0;
-    border-radius: 25px;
-  
+    margin: 0px;
+    padding-bottom: 60px;
+    transition: transform 300ms;
   }
   
   .activeSlide {
-
-    transform: scale(1.1);
+    transform: scale(5.5);
     opacity: 1;
+    margin-top: 250px;
+    margin-bottom: 250px;
     align-items: center;
-    object-fit: overlay;
+    height: 100%;
+    padding: 0px;
+  
   }
   
   .arrow {
@@ -103,11 +105,13 @@
   }
   
   .next {
+
     right: 0%;
     top: 50%;
   }
   
   .prev {
+
     left: 0%;
     top: 50%;
   }
