@@ -1,6 +1,6 @@
 import React from 'react'
 import './postcare.css'
-import Zoom from 'react-reveal/Zoom';
+
 import preCare from '../../Assets/pre-care.jpg';
 import postCare from '../../Assets/post-care.jpg';
 
@@ -33,19 +33,14 @@ function postcare() {
           <h4 className="postcare__h4">Should be avoided for 3 months - BEFORE THE PROCEDURE</h4>
           <h5>Botox and filler on the forehead, temple, and eye area.</h5>
         </div>
-        <Zoom>
         <div className="col-12 ml-md-5 ml-lg-0 pl-md-5 pl-lg-0 col-lg-5 mt-lg-5 mt-xl-3 pt-lg-5 pt-xl-0 pr-lg-0">
             <img src={preCare} alt="preCare" className="img-fluid mb-xl-5" style={styles.preCare} />
         </div>
-        </Zoom>
       </div>  
       <div className="row">
-      <Zoom>
         <div className="col-12 col-lg-7 pl-lg-0 pr-lg-5">
         <img src={postCare} alt="preCare" className="img-fluid mb-xl-5" style={styles.postCare} />
         </div>
-        </Zoom>
-
         <div className="col-12 ml-md-5 ml-lg-0 pl-md-5 pl-lg-0 col-lg-5 mt-lg-5 mt-xl-3 pt-lg-5 pt-xl-0 pr-lg-0">
         <h3>AFTER THE PROCEDURE</h3>
           <h4 className="postcare__h4"><strong> Day 1 – 2</strong></h4>
@@ -57,9 +52,7 @@ function postcare() {
             freshly washed hands or a Q-Tip. Only a thin layer.</h5>
           <h4 className="postcare__h4">REMEMBER!</h4>
           <h5 >DO NOT rub, pick or scratch the treated area. Let any scabbing or dry skin naturally exfoliate off. Picking can cause scarring and pigment loss!</h5>
-          
         </div>
-    
       </div>  
     </div>
     )
