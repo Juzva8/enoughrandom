@@ -9,14 +9,18 @@
 @media (max-width:500px){
     .about{
         background-color: #fafafa;
-        margin-top: -80px;
-        padding: 0px ;
+        padding: 1px ;
         text-align: center;
     }
 
+
     .text-black{
-   
+        background-color: #fafafa;
         text-align: center;
         font-size: 16px!important;
     }
+    .mb-5{
+        margin-bottom: 10px!important;
+    }
+
 }

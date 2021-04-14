@@ -3,32 +3,32 @@
     padding: 10px 30px;
     }
     ul{
-        padding: 40px
+    padding: 40px
     }
     h1{
-        text-align: center;
-        font-weight: bold;
-        padding: 5px ;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
     }
     h4{
-        text-align: center;
-        font-weight: bold;
-        padding: 5px ;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px ;
     }
     h5{
         
-        padding: 40px 40px 0px
+    padding: 40px 40px 0px
     }
     h6{
-        padding: 10px 40px
+    padding: 10px 40px
      }
     .img-fluid-candidate{
-        height: 500px;
-        width: 80%;
-        border-radius: 30px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;     
+    height: 500px;
+    width: 80%;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;     
     }
 @media (max-width:500px){
     .row{

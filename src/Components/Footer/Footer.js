@@ -12,8 +12,8 @@ const Footer = () => (
                     <i className="fab fa-google"></i>
                     </a>
                  {}
-                    <a href="https://github.com/Juzva8/enoughrandom" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-github"></i>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-facebook"></i>
                     </a>
                 </ul>
    <a href="https://browsjungle.com/" target="_blank" className="copyright"rel="noopener noreferrer">COPYRIGHT © 2020 BROWS JUNGLE, LLC - ALL RIGHTS RESERVED.</a>

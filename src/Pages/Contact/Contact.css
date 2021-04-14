@@ -13,7 +13,9 @@
   }
   
   .contact__form > h1 {
-    margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding: 50px;
   }
   
   .form > input,
@@ -39,7 +41,6 @@
   .contact__form > textarea {
     height: 150px;
     max-width: 400px;
-    
     min-height: 100px;
   }
   
@@ -77,7 +78,7 @@
 
   }
   p{
-    text-align: center;
+    text-align: center!important;
     padding: 0px;
   }
 

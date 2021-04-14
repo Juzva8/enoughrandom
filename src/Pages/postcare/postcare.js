@@ -39,10 +39,10 @@ function postcare() {
       </div>  
       <div className="row">
         <div className="col-12 col-lg-7 pl-lg-0 pr-lg-5">
+        <h3 className="postcare__h3">AFTER THE PROCEDURE</h3>
         <img src={postCare} alt="preCare" className="img-fluid mb-xl-5" style={styles.postCare} />
         </div>
         <div className="col-12 ml-md-5 ml-lg-0 pl-md-5 pl-lg-0 col-lg-5 mt-lg-5 mt-xl-3 pt-lg-5 pt-xl-0 pr-lg-0">
-        <h3 className="postcare__h3">AFTER THE PROCEDURE</h3>
           <h4 className="postcare__h4"><strong> Day 1 – 2</strong></h4>
           <h5 className="postcare__h5">Use a clean tissue every few hours to pick up the clear fluid that is coming out. This will help reduce scabbing. The fluid forms the scabs.</h5>
           <h4 className="postcare__h4">Day 1 – 10</h4>
