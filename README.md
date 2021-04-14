@@ -28,4 +28,4 @@
 ## Questions
 * Contact me at:
   * [My GitHub Profile](https://github.com/Juzva8)
-  * My Email laurynas.juzva@gmail.com
+
