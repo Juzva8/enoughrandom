@@ -13,4 +13,10 @@
         padding: 0px ;
         text-align: center;
     }
+
+    .text-black{
+   
+        text-align: center;
+        font-size: 16px!important;
+    }
 }

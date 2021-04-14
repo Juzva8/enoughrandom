@@ -19,7 +19,9 @@
       z-index: -1 !important;
       margin-top: -10px;
       position: fixed !important;
-      padding-bottom: -40px; 
+      padding-bottom: -60px;
+      height: 160px;
+
       
   }
   } 

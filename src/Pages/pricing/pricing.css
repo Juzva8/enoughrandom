@@ -48,11 +48,11 @@ padding: 10px 80px
     }
     .pricing__h1{
         padding: 35px 0px;
-        font-size:30px;
+        font-size:20px;
     }
    
     h3{
-        font-size:20px;
+        font-size:11px;
         color:black;
         padding: 0px;
         display: block;
@@ -60,13 +60,14 @@ padding: 10px 80px
         align-items: center;
     }
    .pricing__paragraph{
-
+       width: 100%;
        opacity: 1!important;
-       padding: 1px;
-       font-size: 10px;
-     
-     
+       padding: 10px;
+       font-size: 11px;
+       text-align: center;
+       align-items: center;
    } 
+
    .pricing__touchup{
     width: 100%;
     font-size: 10px!important;
@@ -74,14 +75,14 @@ padding: 10px 80px
 }
 h6{
     text-align: center;
-    font-size: 10px;
+    font-size: 8px;
     padding:0px;
     line-height: 1.5em;
 }
 p{
     text-align: center;
     font-size: 10px;
-    padding:0px;
+    padding:10px;
 }
 .row{
     padding:0px;

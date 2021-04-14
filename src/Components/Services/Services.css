@@ -36,7 +36,7 @@ transition: .5s ease;
 
 @media (max-width:500px){
     .services__content{
-    margin-top: 200px; 
+    margin-top: 150px; 
     padding:0px;
     background-color:#FAFAFA;
     display: flex;

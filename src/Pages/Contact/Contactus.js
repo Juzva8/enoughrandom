@@ -56,7 +56,7 @@ const handleSubmit = (e) => {
         - SEND -
       </button>
             </form>
-            <h2>Brows Jungle, LLC</h2>
+            <h2 >Brows Jungle, LLC</h2>
             <p>Email: browsjungle@yahoo.com</p>
             <p>Mob.: ‪(747) 224-7451‬</p>
       

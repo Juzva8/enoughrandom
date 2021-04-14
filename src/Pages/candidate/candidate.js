@@ -27,7 +27,7 @@ function candidate() {
           <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
           <img src={skinType} alt="doctor" className="img-fluid-candidate mb-xl-6"/>
           <ul>
-      <li>COVID-19 vaccines. We cannot tattoo between the 1st and the 2nd dose of the vaccine and you need to wait 14 days after the 2nd shot.</li>
+      <li >COVID-19 vaccines. We cannot tattoo between the 1st and the 2nd dose of the vaccine and you need to wait 14 days after the 2nd shot.</li>
       <li>Skin irritations or Psoriasis near the treated area (rashes, sunburn, acne, etc.)</li>
       <li>A Pacemaker or major heart problems</li>
       <li>Allergic to anesthetic (Lidocaine)</li>
