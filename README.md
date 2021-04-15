@@ -10,8 +10,6 @@
 7. [Questions](#questions)
 ## Description
 * This is beauty salon website!
-## Installation
-* N/A
 ## Usage
 * It is a website. 
 ## Screenshot
