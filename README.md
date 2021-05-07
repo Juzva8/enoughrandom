@@ -10,8 +10,6 @@
 7. [Questions](#questions)
 ## Description
 * This is beauty salon website!
-## Installation
-* N/A
 ## Usage
 * It is a website. 
 ## Screenshot
@@ -28,4 +26,4 @@
 ## Questions
 * Contact me at:
   * [My GitHub Profile](https://github.com/Juzva8)
-  * My Email laurynas.juzva@gmail.com
+
