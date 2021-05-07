@@ -7,21 +7,21 @@
     top: 0;
     box-shadow: 0px 5px 8px -9px  rgb(0, 0, 0, 0.75);
 }
-
+.header__home:hover{
+    color: #619c1c;
+}
 .navbar {
     background-color: #fafafa;
     color: rgba(108, 108, 108, 0.5);
     display: flex;
-    /* flex: 1; */
-    /* justify-content: flex-end; */
  }
 
  .header__home{
     outline: none;
     text-decoration: none;
  }
- .header__home:hover{
-     color:black;
+#nav__item:hover{
+     color: #619c1c;
  }
 
 .nav-link {
@@ -32,7 +32,9 @@
     padding-right: 20px;
     /* flex: 1; */
     justify-content: flex-end;
-   
+}
+.navbar:hover{
+    color: #619c1c;
 }
 .img{
     object-fit: contain;

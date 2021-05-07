@@ -4,10 +4,10 @@ import candidate from '../../Assets/services-logo/candidate.png'
 import gallery from '../../Assets/services-logo/gallery.png'
 import postcare from '../../Assets/services-logo/postcare.png'
 import pricing from '../../Assets/services-logo/pricing.png'
-import candidate_text from '../../Assets/services-logo-text/candidate_text.png'
-import gallery_text from '../../Assets/services-logo-text/gallery_text.png'
-import postcare_text from '../../Assets/services-logo-text/post-care_text.png'
-import pricing_text from '../../Assets/services-logo-text/pricing_text.png'
+import candidate_text from '../../Assets/services-logo-text/candidate_text-copy.png'
+import gallery_text from '../../Assets/services-logo-text/gallery_text-copy.png'
+import postcare_text from '../../Assets/services-logo-text/post-care_text-copy.png'
+import pricing_text from '../../Assets/services-logo-text/pricing_text-copy.png'
 
 function Services() {
     return (

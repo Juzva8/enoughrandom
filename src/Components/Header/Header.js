@@ -16,13 +16,13 @@ const toggleNavbar = () => setCollapsed(!collapsed);
     <Collapse isOpen={!collapsed} navbar>
       <Nav navbar>
           <NavItem>
-          <NavLink href="/about">About Me</NavLink>
+          <NavLink id="nav__item" href="/about">About Me</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/consent-forms">Consent Forms</NavLink>
+          <NavLink id="nav__item" href="/consent-forms">Consent Forms</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/contact">Contact</NavLink>
+          <NavLink id="nav__item" href="/contact">Contact</NavLink>
         </NavItem>
       </Nav>
     </Collapse>
