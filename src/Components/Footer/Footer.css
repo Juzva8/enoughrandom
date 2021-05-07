@@ -11,16 +11,28 @@
   .copyright{
     justify-content: space-evenly;
     padding-right: 25%;  
+
   }
-  .copyright:hover{
-    color: white;
-  }
+
   .POWERED{
     justify-content: space-evenly;
     padding-left: 25%;  
   }
   .POWERED:hover{
-    color: white;
+    color: #619c1c;
+    text-decoration: none !important;
+
+  }
+  .copyright:hover{
+    color: #619c1c;
+    text-decoration: none !important;
+  }
+
+  .copyright:link{
+    text-decoration: none; 
+  }
+  .icon-bar > a:hover{
+    color: #619c1c;
   }
 a{
   color:white;
