@@ -34,10 +34,11 @@
 
 .arrow svg {
   transition: color 400ms;
+
 }
 
 .arrow svg:hover {
-  color: black;
+  color: #619c1c;
 }
 
 .next {

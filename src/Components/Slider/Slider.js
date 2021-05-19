@@ -8,9 +8,13 @@ import model_3 from '../../Assets/Gallery/3.jpg'
 import model_4 from '../../Assets/Gallery/4.jpg'
 import model_5 from '../../Assets/Gallery/5.jpg'
 import model_6 from '../../Assets/Gallery/6.jpg'
+import model_7 from '../../Assets/Gallery/7.JPG'
+import model_8 from '../../Assets/Gallery/8.jpg'
+import model_9 from '../../Assets/Gallery/9.jpg'
+import model_10 from '../../Assets/Gallery/10.jpg'
 
 
-const images = [ model_1, model_2, model_3, model_4, model_5, model_6]
+const images = [ model_1, model_2, model_3, model_4, model_5, model_6, model_7, model_8, model_9, model_10]
 
 function SliderComponent() {
 
@@ -35,7 +39,7 @@ function SliderComponent() {
   const settings = {
     infinite: true,
     lazyLoad: true,
-    speed: 300,
+    speed: 400,
     slidesToShow: 5,
     centerMode: true,
     centerPadding: 0,
