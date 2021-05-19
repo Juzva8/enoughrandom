@@ -28,6 +28,7 @@ function Services() {
              <img src={postcare} alt="postcare"/>
                
              </a>
+             
              <a href="/pricing" className="services__content__image" rel="pricing">
              <img src={pricing_text} alt="pricing_text"/>
              <img src={pricing} alt="pricing"/>

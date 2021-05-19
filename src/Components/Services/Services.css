@@ -37,10 +37,13 @@ transition: .5s ease;
 @media (max-width:500px){
     .services__content{
     margin-top: 150px; 
+    width: 100%;
     padding:0px;
+  
     background-color:#FAFAFA;
     display: flex;
     align-items: center;
+
     }
     .services__content__image > img{
         height:40px;
@@ -50,6 +53,8 @@ transition: .5s ease;
         border-radius: 10px;
         align-items: center;
         border-bottom: none;
+        
         opacity: 1;
+        
     }
   } 

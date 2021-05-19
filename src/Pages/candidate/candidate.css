@@ -12,6 +12,8 @@
     }
     h4{
     text-align: center;
+    align-items: center;
+    width: 100%;
     font-weight: bold;
     padding: 5px ;
     }
@@ -19,8 +21,13 @@
         
     padding: 40px 40px 0px
     }
-    h6{
-    padding: 10px 40px
+    #h6_text{
+    padding: 10px 40px 0px;
+    text-align: left;
+     }
+     #h6_text2{
+        padding: 0px 40px;
+        text-align: left;
      }
     .img-fluid-candidate{
     height: 500px;
@@ -45,12 +52,12 @@
     .img-fluid-candidate{
     object-fit: cover;
     width: 100%;
-    margin-bottom: 0;
+    margin: 0px;
     border-radius: 30px;
     }
     ul{
-    padding: 5px;
-    font-size: 8px;
+    padding: 15px;
+    font-size: 10px;
     }
     h1{
     font-size:20px;
@@ -60,20 +67,18 @@
     }
     h4{
     font-size: 10px;
-    padding: 0px;
-    margin-bottom:-100px;
-    opacity: 0;;
+ margin-top: 10px;
     }
     h5{
         
     padding: 5px 5px 0px;
     text-align: center;
-    font-size: 9px;
+    font-size: 10px;
     }
     h6{
-    font-size: 8px;
+    font-size: 10px;
     padding: 5px 5px;
-    text-align: center;
+    text-align: left;
      }
 
 
