@@ -1,6 +1,5 @@
 import React from 'react'
 import './postcare.css'
-
 import preCare from '../../Assets/pre-care.jpg';
 import postCare from '../../Assets/post-care.jpg';
 
