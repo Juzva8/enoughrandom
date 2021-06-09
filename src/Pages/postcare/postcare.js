@@ -26,7 +26,7 @@ function postcare() {
           <h4 className="postcare__h4">1 week - BEFORE THE PROCEDURE</h4>
           <h5 className="postcare__h5" >Avoid sun and tanning also brow waxing, tinting, or threading.</h5>
           <h4 className="postcare__h4" >Stop using 2 weeks - BEFORE THE PROCEDURE</h4>
-          <h5 className="postcare__h5">Alpha Hydroxy Acid (AHA) products close to the eyebrow area.</h5>
+          <h5 className="postcare__h5">Alpha Hydroxy Acid (AHA) products close to the eyebrow area</h5>
           <h4 className="postcare__h4">Stop using at least 1 month - BEFORE THE PROCEDURE</h4>
           <h5 className="postcare__h5">Retinol or vitamin A products,  chemical Peels, Microdermabrasion and facials.</h5>
           <h4 className="postcare__h4">Should be avoided for 3 months - BEFORE THE PROCEDURE</h4>
