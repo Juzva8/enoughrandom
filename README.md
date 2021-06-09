@@ -20,7 +20,7 @@
 * YES
 ## Link to deployed version of the app
 * https://github.com/Juzva8/enoughrandom
-* https://main.d31lf0dcwu8jdq.amplifyapp.com
+* https://www.browsjungle.com/
 ## License
 * A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 ## Questions
