@@ -33,8 +33,9 @@ export default function Contact() {
       </button>
             </form>
             <h2>Brows Jungle, LLC</h2>
-            <p id="contact__id">Email: browsjungle@yahoo.com</p>
+            <p id="contact__id">Email: browsjungle@gmail.com</p>
             <p id="contact__id">Mob.: ‪(747) 224-7451‬</p>
+            <p id="contact__id">Corona, CA</p>
       
         </div>
 )

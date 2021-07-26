@@ -6,6 +6,16 @@
    font-weight: bold;
    text-align: center;
 }
+
+.home_h1{
+   display: none !important;
+}
+.home_h2{
+   display: none !important;
+}
+
+
+
 @media (max-width:500px){
    .home{
       background-color: #fafafa;
@@ -14,5 +24,11 @@
       font-size: 25px;
       font-weight: bold;
       text-align: center;
+   }
+   .home_h1{
+      display: none !important;
+   }
+   .home_h2{
+      display: none !important;
    }
 }
