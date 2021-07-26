@@ -2,19 +2,19 @@ import { useState } from "react";
 import Slider from 'react-slick'
 import {FaArrowRight, FaArrowLeft} from 'react-icons/fa'
 import './Slider.css'
-import model_1 from '../../Assets/Gallery/1.jpg'
-import model_2 from '../../Assets/Gallery/2.jpg'
-import model_3 from '../../Assets/Gallery/3.jpg'
-import model_4 from '../../Assets/Gallery/4.jpg'
-import model_5 from '../../Assets/Gallery/5.jpg'
-import model_6 from '../../Assets/Gallery/6.jpg'
-import model_7 from '../../Assets/Gallery/17.png'
-import model_8 from '../../Assets/Gallery/8.jpg'
-import model_9 from '../../Assets/Gallery/9.jpg'
-import model_10 from '../../Assets/Gallery/10.jpg'
+import pmu from '../../Assets/Gallery/pmu.jpg'
+import Ombré from '../../Assets/Gallery/Ombré.jpg'
+import Powder_Brow from '../../Assets/Gallery/Powder_Brow.jpg'
+import Touch_Up from '../../Assets/Gallery/Touch_Up.jpg'
+import Combination_Brow from '../../Assets/Gallery/Combination_Brow.jpg'
+import Microblading from '../../Assets/Gallery/Microblading.jpg'
+import BROW_DADDY from '../../Assets/Gallery/BROW_DADDY.png'
+import pmuangel from '../../Assets/Gallery/pmuangel.jpg'
+import Corona from '../../Assets/Gallery/Corona.jpg'
+import Riverside from '../../Assets/Gallery/Riverside.jpg'
 
 
-const images = [ model_1, model_2, model_3, model_4, model_5, model_6, model_7, model_8, model_9, model_10]
+const images = [ pmu, Ombré, Powder_Brow, Touch_Up, Combination_Brow, Microblading, BROW_DADDY, pmuangel, Corona, Riverside]
 
 function SliderComponent() {
 

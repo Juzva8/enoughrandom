@@ -1,14 +1,14 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import './About.css';
-import artist from '../../Assets/ER.png';
+import powder_brows_near_me from '../../Assets/powder_brows_near_me.png';
 
 const styles = {
     main: {
       lineHeight: "1.5em",
       fontSize: "22px",
     },
-    artist: {
+    powder_brows_near_me: {
         boxShadow: "5px 5px 20px -5px black",
         borderRadius: "25px"
     },
@@ -37,7 +37,7 @@ I am looking forward to seeing you soon!
           </div>
           <Zoom>
           <div className="col-12 ml-md-5 ml-lg-0 pl-md-5 pl-lg-0 col-lg-5 mt-lg-5 mt-xl-3 pt-lg-5 pt-xl-0 pr-lg-0">
-              <img id="artist" src={artist} alt="Artist" className="img-fluid mb-xl-5" style={styles.artist} />
+              <img id="powder_brows_near_me" src={powder_brows_near_me} alt="powder brows near me" className="img-fluid mb-xl-5" style={styles.powder_brows_near_me} />
           </div>
           </Zoom>
         </div>  
