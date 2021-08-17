@@ -16,7 +16,7 @@ const Footer = () => (
                     <i className="fab fa-facebook fa-lg"></i>
                     </a>
                 </ul>
-   <a href="https://browsjungle.com/" target="_blank" className="copyright"rel="noopener noreferrer">COPYRIGHT © 2020 BROWS JUNGLE, LLC - ALL RIGHTS RESERVED.</a>
+   <a href="https://browsjungle.com/" target="_blank" className="copyright"rel="noopener noreferrer">COPYRIGHT © 2020 BROWS JUNGLE, LLC - CORONA, CA</a>
    {}
    <a href="https://strattonterrace.com/"target="_blank"  className="POWERED" rel="noopener noreferrer">POWERED BY STRATTONTERRACE.COM</a>
   
