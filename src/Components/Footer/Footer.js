@@ -18,7 +18,7 @@ const Footer = () => (
                 </ul>
    <a href="https://browsjungle.com/" target="_blank" className="copyright"rel="noopener noreferrer">COPYRIGHT © 2020 BROWS JUNGLE, LLC - CORONA, CA</a>
    {}
-   <a href="https://strattonterrace.com/"target="_blank"  className="POWERED" rel="noopener noreferrer">POWERED BY STRATTONTERRACE.COM</a>
+   <a href="https://strattonterrace.com/"target="_blank"  className="POWERED" rel="noopener noreferrer">PMU CORONA POWERED BY STRATTONTERRACE.COM</a>
   
     </div>
   );
