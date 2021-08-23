@@ -32,6 +32,7 @@ I use innovative techniques and superior products to enhance and highlight
 my client’s natural beauty, for exceptionally gorgeous results.   
 If you are looking for a company that makes your brow satisfaction their top priority, 
 Brows Jungle, LLC is the place for you! 
+PMU beauty salon located in Corona, California! 
 I am looking forward to seeing you soon!
             </h5>
           </div>
