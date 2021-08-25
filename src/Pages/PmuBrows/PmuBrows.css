@@ -1,4 +1,4 @@
-.candidate{
+.PmuBrows{
     background-color: #fafafa;
     padding: 10px 30px;
     }
@@ -29,7 +29,7 @@
         padding: 0px 40px;
         text-align: left;
      }
-    .img-fluid-candidate{
+    .img-fluid-PmuBrows{
     height: 500px;
     width: 80%;
     border-radius: 30px;
@@ -44,12 +44,12 @@
     }
 
 
-    .candidate{
+    .PmuBrows{
     background-color: #fafafa;
     padding: 0px;
     }
    
-    .img-fluid-candidate{
+    .img-fluid-PmuBrows{
     object-fit: cover;
     width: 100%;
     margin: 0px;

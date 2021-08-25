@@ -6,8 +6,8 @@ import Home from './Pages/Home/Home'
 import ConsentForms from './Pages/ConsentForms/ConsentForms'
 import Contact from './Pages/Contact/Contact'
 import gallery from './Pages/gallery/gallery'
-import postcare from './Pages/postcare/postcare'
-import candidate from './Pages/candidate/candidate'
+import Lipblush from './Pages/LipBlush/LipBlush'
+import PmuBrows from './Pages/PmuBrows/PmuBrows'
 import pricing from './Pages/pricing/pricing'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Brand from './Components/Brand/Brand';
@@ -26,8 +26,8 @@ function App() {
         <Route path='/consent-forms' component={ConsentForms} />   
         <Route path='/contact' component={Contact} />
         <Route path='/gallery' component={gallery} />
-        <Route path='/postcare' component={postcare} />
-        <Route path='/candidate' component={candidate} />
+        <Route path='/Lipblush' component={Lipblush} />
+        <Route path='/PmuBrows' component={PmuBrows} />
         <Route path='/pricing' component={pricing} />
       </Switch>
 
