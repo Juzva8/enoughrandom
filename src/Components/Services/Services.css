@@ -22,7 +22,6 @@
 position: absolute;
 opacity: 0;
 transition: .5s ease;
-    
 }
 
 .services__content__image img:nth-child(1):hover {
@@ -39,7 +38,6 @@ transition: .5s ease;
     margin-top: 150px; 
     width: 100%;
     padding:0px;
-  
     background-color:#FAFAFA;
     display: flex;
     align-items: center;
@@ -52,9 +50,8 @@ transition: .5s ease;
         background-color: #202020;
         border-radius: 10px;
         align-items: center;
+        opacity: 0;
         border-bottom: none;
-        
-        opacity: 1;
-        
     }
+    
   } 
