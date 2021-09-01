@@ -11,7 +11,7 @@ function pricing() {
     <h3>Microblading</h3>
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>$375</h3>
+    <h3>$425</h3>
    </div>
    <div className="pricing__paragraph">Microblading is a permanent procedure that mimics the same size of an eyebrow hair stroke through small incisions made with a microblade. 
     The purpose of microblading is to enhance what you naturally have, and the result is natural-looking, trendy eyebrows. *NOT recommended for oily, or mature skin.</div>
