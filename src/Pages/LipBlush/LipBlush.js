@@ -27,7 +27,7 @@ function Lipblush() {
   
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <div className="col-12 col-lg-12 pl-lg-0 pr-lg-6">
-<h4>WHAT IS YOUR SKIN TYPE?</h4>
+<h4>WHAT IS LIP BLUSH?</h4>
 </div>
     <img src={doctor} alt="skinType" className="img-fluid-PmuBrows mb-xl-6"/>
     <h6><strong>LIP BLUSH</strong></h6>
