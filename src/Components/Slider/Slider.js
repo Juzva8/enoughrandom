@@ -12,9 +12,18 @@ import BROW_DADDY from '../../Assets/Gallery/BROW_DADDY.png'
 import pmuangel from '../../Assets/Gallery/pmuangel.jpg'
 import Corona from '../../Assets/Gallery/Corona.jpg'
 import Riverside from '../../Assets/Gallery/Riverside.jpg'
+import brows from '../../Assets/Gallery/brows.jpg'
+import eyebrow from '../../Assets/Gallery/eyebrow.jpg'
+import Permanent from '../../Assets/Gallery/Permanent.JPEG'
+import Semi from '../../Assets/Gallery/Semi.jpeg'
+import tattoo from '../../Assets/Gallery/tattoo.JPEG'
+import technique from '../../Assets/Gallery/technique.JPEG'
+import Treatment from '../../Assets/Gallery/Treatment.JPEG'
 
 
-const images = [ pmu, Ombré, Powder_Brow, Touch_Up, Combination_Brow, Microblading, BROW_DADDY, pmuangel, Corona, Riverside]
+
+
+const images = [ pmu, Ombré, Powder_Brow, Touch_Up, Combination_Brow, Microblading, BROW_DADDY, pmuangel, Corona, Riverside, brows, eyebrow, Permanent, Semi, tattoo, technique, Treatment ]
 
 function SliderComponent() {
 
