@@ -7,7 +7,11 @@ function ConsentForms() {
 
     return (
         <div className="ConsentForms">
-            <h1>CONSENT FORMS</h1>
+            
+            <h1>TO CONFIRM BOOKING PLEASE</h1>
+            <span>SUBMIT A $50 NON-REFUNDABLE BOOKING FEE TO RESERVE YOUR APPOINTMENT. THIS FEE WILL GO TOWARDS YOUR BROWS PRICING. PLEASE SEND IT USING ZELLE AT BROWSJUNGLE@GMAIL.COM IF PAYMENT IS NOT RECEIVED WITHIN 1 HOUR BOOKING WILL BE CANCELLED. </span>
+            
+            <h1>AND READ CONSENT FORMS BELLOW</h1>
             
         <div className="ConsentForms__button">
         <Button href="https://drive.google.com/file/d/1RW4r2GbMt_JhiMOxRWyYrtDbtwV5NXaU/view?usp=sharing" target="_blank" size="lg" block>Before The Procedure (pdf)</Button>
