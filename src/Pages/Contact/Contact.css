@@ -50,8 +50,6 @@
     padding-bottom: 10px;
     color: black;
     font-weight: bold;
-
-
   }
   
   .contact__form > button {
@@ -76,11 +74,12 @@
   }
   h2{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 
   }
   p{
     text-align: center!important;
+    line-height:12px;
     padding: 0px;
   }
 
