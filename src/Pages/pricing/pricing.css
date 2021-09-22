@@ -38,6 +38,9 @@ h6{
 .row{
 padding: 10px 80px
 }
+a:hover{
+    color: white;
+}
 
 @media (max-width:500px){
     .pricing{
