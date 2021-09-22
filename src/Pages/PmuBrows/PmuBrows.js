@@ -22,7 +22,7 @@ const styles = {
 function PmuBrows() {
     return (
         <div className="PmuBrows">
-    <h1>AM I A GOOD CANDIDATE FOR PERMANENT MAKEUP?</h1>
+    <h1>AM I A GOOD CANDIDATE FOR BROWS PERMANENT MAKEUP?</h1>
     <div className="PmuBrows_row">
    
   
