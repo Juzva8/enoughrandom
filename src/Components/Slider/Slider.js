@@ -14,11 +14,11 @@ import Corona from '../../Assets/Gallery/Corona.jpg'
 import Riverside from '../../Assets/Gallery/Riverside.jpg'
 import brows from '../../Assets/Gallery/brows.jpg'
 import eyebrow from '../../Assets/Gallery/eyebrow.jpg'
-import Permanent from '../../Assets/Gallery/Permanent.JPEG'
-import Semi from '../../Assets/Gallery/Semi.jpeg'
-import tattoo from '../../Assets/Gallery/tattoo.JPEG'
-import technique from '../../Assets/Gallery/technique.JPEG'
-import Treatment from '../../Assets/Gallery/Treatment.JPEG'
+import Permanent from '../../Assets/Gallery/Permanent.jpg'
+import Semi from '../../Assets/Gallery/Semi.jpg' 
+import tattoo from '../../Assets/Gallery/tattoo.jpg'
+import technique from '../../Assets/Gallery/technique.jpg'
+import Treatment from '../../Assets/Gallery/Treatment.jpg'
 
 
 

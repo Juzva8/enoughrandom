@@ -13,6 +13,7 @@ const styles = {
   },
   LipBlush: {
     boxShadow: "5px 5px 20px -5px black",
+
       borderRadius: "25px"
 },
 };
@@ -20,10 +21,10 @@ function Lipblush() {
   return (
     <div className="PmuBrows">
 <h1>AM I A GOOD CANDIDATE FOR LIP BLUSH?</h1>
-<div className="row">
+<div className="PmuBrows_row">
 
 
-<div className="row">
+<div className="PmuBrows_row">
   
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <div className="col-12 col-lg-12 pl-lg-0 pr-lg-6">
@@ -76,8 +77,8 @@ function Lipblush() {
       </div>
       </div>
     </div>
-    <h1 className="aftercare__h1"> Pre and After Care</h1>
-  <div className="row">
+    {/* <h1 className="aftercare__h1"> Pre and After Care</h1> */}
+  <div className="PmuBrows_row">
     <div className="col-12 col-lg-7 pl-lg-0 pr-lg-5">
       <h4>BEFORE THE PROCEDURE</h4>
       <h4>Things You Should Avoid for at least 24 hours - BEFORE THE PROCEDURE</h4>
@@ -95,7 +96,7 @@ function Lipblush() {
         <img src={preCare} alt="preCare" className="img-fluid mb-xl-5" style={styles.preCare} />
     </div>
   </div>  
-  <div className="row">
+  <div className="PmuBrows_row">
     <div className="col-12 col-lg-7 pl-lg-0 pr-lg-5">
     <h4 >AFTER THE PROCEDURE</h4>
     <img src={aftercare} alt="preCare" className="img-fluid mb-xl-5" style={styles.aftercare} />
