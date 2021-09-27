@@ -3,14 +3,26 @@
     padding: 10px 30px;
     }
 
-h3{
+.pricing__h3{
     color:black;
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;  
-    text-align:left;
-  
+    text-align:left; 
+}
+
+.pricing__h3__1{
+    color:black;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align:left; 
+
+}
+.pricing__col{
+    width: 50%;
 }
 .pricing__paragraph{
 opacity: 1!important;
@@ -55,13 +67,22 @@ a:hover{
 
     }
    
-    h3{
+    .pricing__h3{
         font-size:11px;
         color:black;
-        padding: 0px;
+        padding: 10px 0px 0px;
         display: block;
         text-align: center;
         align-items: center;
+    }
+    .pricing__h3__1{
+        font-size:11px;
+        color:black;
+        width: 100%;
+        margin-left: 20%;
+        margin-right: left;  
+        text-align:left; 
+    
     }
    .pricing__paragraph{
        width: 100%;
@@ -70,7 +91,6 @@ a:hover{
        font-size: 11px;
        text-align: center;
        align-items: center;
-    
    } 
 
    .pricing__touchup{
@@ -78,9 +98,9 @@ a:hover{
     font-size: 10px!important;
     font-weight: lighter;
     padding-top: -200px;
-
-
 }
+
+
 h6{
     text-align: center;
     font-size: 10px;

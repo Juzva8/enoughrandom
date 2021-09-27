@@ -9,10 +9,10 @@ function pricing() {
            <h1 className="pricing__h1">SERVICES & PRICING</h1>
            <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>Lip Blush</h3>
+    <h3 className="pricing__h3">Lip Blush</h3>
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>$425
+    <h3 className="pricing__h3__1">$425
     <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
     </h3>
    </div>
@@ -20,10 +20,10 @@ function pricing() {
    </div>
            <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>Powder Brows</h3>
+    <h3 className="pricing__h3">Powder Brows</h3>
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>$425
+    <h3 className="pricing__h3__1">$425
     <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
     </h3>
    </div>
@@ -32,10 +32,10 @@ function pricing() {
    </div>
     <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>Microblading</h3>
+    <h3 className="pricing__h3">Microblading</h3>
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>$425
+    <h3 className="pricing__h3__1">$425
     <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
     </h3>
    </div>
@@ -44,10 +44,10 @@ function pricing() {
    </div>
    <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>Microblading + Shading (combo)</h3>
+    <h3 className="pricing__h3">Microblading + Shading (combo)</h3>
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>$425
+    <h3 className="pricing__h3__1">$425
     <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
     </h3>
    </div>
@@ -62,10 +62,10 @@ function pricing() {
   </div>
    <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>Touch up</h3>
+    <h3 className="pricing__h3">Touch up</h3>
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>$120
+    <h3 className="pricing__h3__1">$120
     <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
     </h3>
 
@@ -76,10 +76,10 @@ function pricing() {
    </div>
    <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>Annual Touch up</h3>
+    <h3 className="pricing__h3">Annual Touch up</h3>
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>$150
+    <h3 className="pricing__h3__1">$150
     <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book> </h3>
   
    </div>
@@ -87,10 +87,10 @@ function pricing() {
    </div>
    <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>Biannual touch up</h3>
+    <h3 className="pricing__h3">Biannual touch up</h3>
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3>$170
+    <h3 className="pricing__h3__1">$170
     <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
     </h3>
    </div>
@@ -124,9 +124,10 @@ const Book = styled.a`
     color: #white;
   }
   @media (max-width: 768px) {
+    margin-left: 40px;
     margin-right:0px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 00;
   }
 `;
 export default pricing
