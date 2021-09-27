@@ -1,5 +1,6 @@
 .PmuBrows{
     background-color: #fafafa;
+    
     padding: 10px 10px;
     }
     ul{
@@ -23,7 +24,7 @@
     padding: 40px 40px 0px
     }
     #h6_text{
-       margin-top: 10px;
+    margin-top: 10px;
     padding: 10px 40px 0px;
     text-align: left;
      }
@@ -84,10 +85,20 @@
 
 @media (max-width:500px){
     .PmuBrows_row{
-    padding: 5px;
-    margin: 5px;
+      flex-direction: column;
+      width: 100%;
+      padding: 5px!important;
+      margin: 5px;
     }
-
+    #h6_text{
+      margin-top: 10px;
+      padding: 10px 20px 0px;
+      text-align: left;
+       }
+       #h6_text2{
+          padding: 0px 20px;
+          text-align: center;
+       }
 
     .PmuBrows{
     background-color: #fafafa;
@@ -101,8 +112,9 @@
     border-radius: 30px;
     }
     ul{
-    padding: 15px;
-    font-size: 10px;
+      padding-top: 20px;
+      padding: 20px;
+      font-size: 10px;
     }
     h1{
     font-size:20px;
@@ -114,9 +126,8 @@
     font-size: 10px;
  margin-top: 10px;
     }
-    h6{
-        
-    padding: 5px 5px 0px;
+    .PmuBrows_row__h6{
+    padding: 20px 5px 0px;
     text-align: center;
     font-size: 10px;
     }
