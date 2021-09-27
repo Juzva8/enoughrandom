@@ -20,7 +20,7 @@ const styles = {
 function Lipblush() {
   return (
     <div className="PmuBrows">
-<h1>AM I A GOOD CANDIDATE FOR LIP BLUSH?</h1>
+<h4 className="PmuLips_row__h4">AM I A GOOD CANDIDATE FOR LIP BLUSH?</h4>
 <div className="PmuBrows_row">
 
 
@@ -28,10 +28,10 @@ function Lipblush() {
   
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <div className="col-12 col-lg-12 pl-lg-0 pr-lg-6">
-<h4>WHAT IS LIP BLUSH?</h4>
+<h4 className="PmuBrows_row__h4">WHAT IS LIP BLUSH?</h4>
 </div>
     <img src={doctor} alt="skinType" className="img-fluid-PmuBrows mb-xl-6"/>
-    <h6><strong>LIP BLUSH</strong></h6>
+    <h6 className="PmuBrows_row__h6"><strong>LIP BLUSH</strong></h6>
   <h6 id="h6_text" >Lip Blush tattoo enhances the natural shape of your lips, giving them that boost of vitality and even coloring. 
   This is an extremely popular semi-permanent makeup treatment providing a flush of color as well as defining the contours of the lip. 
   The result will resemble a very subtle, matte, natural toned lipstick look. Most lip blush tattoos are designed to last <strong>2 to 3 years.</strong>
@@ -45,7 +45,7 @@ function Lipblush() {
       </div>
       <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
       <div className="col-12 col-lg-12 pl-lg-0 pr-lg-6">
-<h4>WE CAN'T DO LIP BLUSH FOR ANY CLIENTS WHO ARE OR HAVE:</h4>
+<h4 className="PmuLips_row__h4">WE CAN'T DO LIP BLUSH FOR ANY CLIENTS WHO ARE OR HAVE:</h4>
 </div>
       <img src={skinType} alt="doctor" className="img-fluid-PmuBrows mb-xl-6"/>
       <ul>
@@ -80,16 +80,16 @@ function Lipblush() {
     {/* <h1 className="aftercare__h1"> Pre and After Care</h1> */}
   <div className="PmuBrows_row">
     <div className="col-12 col-lg-7 pl-lg-0 pr-lg-5">
-      <h4>BEFORE THE PROCEDURE</h4>
-      <h4>Things You Should Avoid for at least 24 hours - BEFORE THE PROCEDURE</h4>
+      <h4 className="PmuLips_row__h4">BEFORE THE PROCEDURE</h4>
+      <h4 className="PmuLips_row__h4">Things You Should Avoid for at least 24 hours - BEFORE THE PROCEDURE</h4>
       <h6 className="aftercare__h6" >Alcohol, caffeine, Ibuprofen/Advil, Aspirin, Vitamin E, “Hair, Skin, Nail” supplements, and fish oil supplements.</h6>
-      <h4>1 week - BEFORE THE PROCEDURE</h4>
+      <h4 className="PmuLips_row__h4">1 week - BEFORE THE PROCEDURE</h4>
       <h6 className="aftercare__h6" >Avoid sun and tanning also brow waxing, tinting, or threading.</h6>
       <h4 >Stop using 2 weeks - BEFORE THE PROCEDURE</h4>
       <h6 className="aftercare__h6">Alpha Hydroxy Acid (AHA) products close to the eyebrow area</h6>
-      <h4>Stop using at least 1 month - BEFORE THE PROCEDURE</h4>
+      <h4 className="PmuLips_row__h4">Stop using at least 1 month - BEFORE THE PROCEDURE</h4>
       <h6 className="aftercare__h6">Retinol or vitamin A products,  chemical Peels, Microdermabrasion and facials.</h6>
-      <h4>Should be avoided for 3 months - BEFORE THE PROCEDURE</h4>
+      <h4 className="PmuLips_row__h4">Should be avoided for 3 months - BEFORE THE PROCEDURE</h4>
       <h6 className="aftercare__h6">Botox and filler on the forehead, temple, and eye area.</h6>
     </div>
     <div className="col-12 ml-md-5 ml-lg-0 pl-md-5 pl-lg-0 col-lg-5 mt-lg-5 mt-xl-3 pt-lg-5 pt-xl-0 pr-lg-0">

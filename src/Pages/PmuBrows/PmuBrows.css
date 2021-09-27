@@ -79,7 +79,7 @@
       } */
 
       .PmuBrows_row__h4__Before{
-         padding-bottom: 20px;
+         padding-bottom: 5px;
          margin-bottom: 10px;
       }
 
@@ -149,19 +149,16 @@
    line-height: 1.5em;
    font-size: 11px;
    text-align: center!;
-
-   }
-.aftercare__h4{
    line-height: 3.5em !important;
    font-size: 10px !important;
    text-align: center !important;
    opacity: 1;
    margin:1px;
-   
+
    }
    .aftercare__h6{
    line-height: 1.5em;
-   font-size: 9px;
+   font-size: 12px;
    text-align: center;
    padding: 1px;
 

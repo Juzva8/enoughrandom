@@ -23,11 +23,7 @@ function PmuBrows() {
     return (
         <div className="PmuBrows">
     <h1>AM I A GOOD CANDIDATE FOR BROWS PERMANENT MAKEUP?</h1>
-    <div className="PmuBrows_row">
-   
-  
-    {/* <div className="PmuBrows_row"> */}
-      
+    <div className="PmuBrows_row">     
         <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
         <div className="col-12 col-lg-12 pl-lg-0 pr-lg-6">
     <h4 className="PmuBrows_row__h4">WHAT IS YOUR SKIN TYPE?</h4>
@@ -63,9 +59,8 @@ function PmuBrows() {
            </ul>
           </div>
           </div>
-        {/* </div> */}
-        {/* <h1 className="aftercare__h1"> Pre and After Care</h1> */}
-      {/* <div className="PmuBrows_row">
+        <h1 className="aftercare__h1"> Pre and After Care</h1>
+      <div className="PmuBrows_row">
         <div className="col-12 col-lg-7 pl-lg-0 pr-lg-5">
           <h4 className="PmuBrows_row__h4__Before">BEFORE THE PROCEDURE</h4>
           <h4>Things You Should Avoid for at least 24 hours - BTP*</h4>
@@ -99,7 +94,7 @@ function PmuBrows() {
           <h4 >REMEMBER!</h4>
           <h6 className="aftercare__h6">DO NOT rub, pick or scratch the treated area. Let any scabbing or dry skin naturally exfoliate off. Picking can cause scarring and pigment loss!</h6>
         </div>
-      </div>   */}
+      </div>  
         </div>
     )
 }
