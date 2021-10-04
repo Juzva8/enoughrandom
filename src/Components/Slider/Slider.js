@@ -2,6 +2,7 @@ import { useState } from "react";
 import Slider from 'react-slick'
 import {FaArrowRight, FaArrowLeft} from 'react-icons/fa'
 import './Slider.css'
+import lipBlush from '../../Assets/Gallery/lip_blush.jpeg'
 import pmu from '../../Assets/Gallery/pmu.jpg'
 import Ombré from '../../Assets/Gallery/Ombré.jpg'
 import Powder_Brow from '../../Assets/Gallery/Powder_Brow.jpg'
@@ -18,12 +19,11 @@ import Permanent from '../../Assets/Gallery/Permanent.jpg'
 import Semi from '../../Assets/Gallery/Semi.jpg' 
 import tattoo from '../../Assets/Gallery/tattoo.jpg'
 import technique from '../../Assets/Gallery/technique.jpg'
-import Treatment from '../../Assets/Gallery/Treatment.jpg'
 
 
 
 
-const images = [ pmu, Ombré, Powder_Brow, Touch_Up, Combination_Brow, Microblading, BROW_DADDY, pmuangel, Corona, Riverside, brows, eyebrow, Permanent, Semi, tattoo, technique, Treatment ]
+const images = [ lipBlush, pmu, Ombré, Powder_Brow, Touch_Up, Combination_Brow, Microblading, BROW_DADDY, pmuangel, Corona, Riverside, brows, eyebrow, Permanent, Semi, tattoo, technique ]
 
 function SliderComponent() {
 
