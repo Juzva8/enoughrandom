@@ -2,7 +2,7 @@ import { useState } from "react";
 import Slider from 'react-slick'
 import {FaArrowRight, FaArrowLeft} from 'react-icons/fa'
 import './Slider.css'
-import lipBlush from '../../Assets/Gallery/lip_blush.jpeg'
+import lipBlush from '../../Assets/Gallery/lip_blush.jpg'
 import pmu from '../../Assets/Gallery/pmu.jpg'
 import Ombré from '../../Assets/Gallery/Ombré.jpg'
 import Powder_Brow from '../../Assets/Gallery/Powder_Brow.jpg'
