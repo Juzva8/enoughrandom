@@ -18,7 +18,7 @@ export default function Contact() {
     // }
     return (
         <div className="contact">
-   <InlineWidget url="https://calendly.com/browsjungle/4hours?primary_color=619c1c" />
+   <InlineWidget url="https://calendly.com/browsjungle/5hours?month=2021-10&date=2021-10-15" />
 {/* <!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="" style="min-width:320px;height:630px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>

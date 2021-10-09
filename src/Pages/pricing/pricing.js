@@ -13,7 +13,7 @@ function pricing() {
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <h3 className="pricing__h3__1">$425
-    <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
+    <Book a href="https://calendly.com/browsjungle/5hours" target="_blank">Book Now</Book>
     </h3>
    </div>
    <div className="pricing__paragraph">Lip Blush tattoo enhances the natural shape of your lips, giving them that boost of vitality and even coloring.</div>
@@ -24,7 +24,7 @@ function pricing() {
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <h3 className="pricing__h3__1">$425
-    <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
+    <Book a href="https://calendly.com/browsjungle/5hours" target="_blank">Book Now</Book>
     </h3>
    </div>
    <div className="pricing__paragraph">Powder brows can be done as light as a brow tint or as dark as glam. 
@@ -36,7 +36,7 @@ function pricing() {
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <h3 className="pricing__h3__1">$425
-    <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
+    <Book a href="https://calendly.com/browsjungle/5hours" target="_blank">Book Now</Book>
     </h3>
    </div>
    <div className="pricing__paragraph">Microblading is a permanent procedure that mimics the same size of an eyebrow hair stroke through small incisions made with a microblade. 
@@ -48,7 +48,7 @@ function pricing() {
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <h3 className="pricing__h3__1">$425
-    <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
+    <Book a href="https://calendly.com/browsjungle/5hours" target="_blank">Book Now</Book>
     </h3>
    </div>
    <div className="pricing__paragraph">This technique offers the best of both powdered and hair stroke effects combined together to achieve a fluffy, 
@@ -66,7 +66,7 @@ function pricing() {
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <h3 className="pricing__h3__1">$120
-    <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
+    <Book a href="https://calendly.com/browsjungle/5hours" target="_blank">Book Now</Book>
     </h3>
 
         
@@ -80,7 +80,7 @@ function pricing() {
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <h3 className="pricing__h3__1">$150
-    <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book> </h3>
+    <Book a href="https://calendly.com/browsjungle/5hours" target="_blank">Book Now</Book> </h3>
   
    </div>
    <div className="pricing__paragraph">12 months after touch up session</div>
@@ -91,7 +91,7 @@ function pricing() {
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <h3 className="pricing__h3__1">$170
-    <Book a href="https://calendly.com/browsjungle/4hours?primary_color=619c1c" target="_blank">Book Now</Book>
+    <Book a href="https://calendly.com/browsjungle/5hours" target="_blank">Book Now</Book>
     </h3>
    </div>
    <div className="pricing__paragraph">24 months after touch up session. If you do not come back for a biannual touch up you will need to pay a full price again. </div>
