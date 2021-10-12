@@ -5,8 +5,6 @@
 }
 
 .ConsentForms__h1{
-
-    margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
@@ -35,9 +33,14 @@
     font-weight:bold;
 }
 .ConsentForms__button{
-    margin: 60px 0px;
+    /* margin: 60px 0px; */
     padding: 10px;
     background-color: #fafafa;
+}
+
+.ConsentForm__span__one{
+    align-items: left;
+    text-align:left;
 }
 
 @media (max-width:500px){

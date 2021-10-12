@@ -18,28 +18,10 @@ export default function Contact() {
     // }
     return (
         <div className="contact">
-   <InlineWidget url="https://calendly.com/browsjungle/5hours?month=2021-10&date=2021-10-15" />
-{/* <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end --> */}
+          <>
+          <InlineWidget url="https://calendly.com/browsjungle/5hours?month=2021-10&date=2021-10-15" />
+          </>
 
-
-            {/* <form className="contact__form" onSubmit={sendEmail}>
-            <h1>Contact Us</h1>
-            <label> Name </label>
-            <input type="text" className="form-control" placeholder="Name" name="name"/>
-            <label> Email </label>
-            <input type="email" className="form-control" placeholder="Email Address" name="email"/>
-              <label> Subject </label>
-              <input type="text" className="form-control" placeholder="Subject" name="subject"/>
-            <label>Message</label>
-            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
-            <button
-        type="submit" >
-        - SEND -
-      </button>
-            </form> */}
             <h2>Brows Jungle, LLC</h2>
             <p id="contact__id">Email: browsjungle@gmail.com</p>
             <p id="contact__id">Mob.: ‪(747) 224-7451‬ </p>

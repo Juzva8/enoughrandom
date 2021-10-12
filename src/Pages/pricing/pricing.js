@@ -97,7 +97,7 @@ function pricing() {
    <div className="pricing__paragraph">24 months after touch up session. If you do not come back for a biannual touch up you will need to pay a full price again. </div>
    </div>
    <div className="pricing__touchup">
-  <h6><strong>*A $50 NON-REFUNDABLE BOOKING FEE IS REQUIRED TO RESERVE YOUR APPOINTMENT. THIS FEE WILL GO TOWARDS YOUR SERVICE OR PROCEDURE PRICING.</strong></h6>
+  <h6><strong>*A $50 NON-REFUNDABLE BOOKING FEE IS REQUIRED TO RESERVE YOUR APPOINTMENT. THIS FEE WILL GO TOWARDS YOUR PROCEDURE PRICING.</strong></h6>
   </div>
         </div>
     )

@@ -1,6 +1,6 @@
 .contact{
     background-color: #fafafa;
-    padding: 10px 180px;
+    padding: 10px 10px;
 }
 .contact__form {
     height: 100vh;
@@ -87,9 +87,7 @@
   @media (max-width:500px){
     .contact{
       background-color: #fafafa;
-      margin-top: -140px; 
       padding:10px;
-      display: flex;
       align-items: center;
     }
     .contact__form {
