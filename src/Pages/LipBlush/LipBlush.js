@@ -3,7 +3,7 @@ import './LipBlush.css'
 import preCare from '../../Assets/pre-care.jpg';
 import doctor from '../../Assets/doctor.png';
 import skinType from '../../Assets/skinType.png';
-import aftercare from '../../Assets/post-care.jpg';
+import LipBlush from '../../Assets/LipBlush.jpg';
 
 const styles = {
 
@@ -41,7 +41,6 @@ function Lipblush() {
 *** Please disclose if you have ever had a lip blister, cold sore or any herpes outbreaks. This technique will cause a blister to form. You may request a prescription from your doctor for Valtrex to prevent and outbreaks.
 **** Your lips may swell 2 or 3 times the normal lip size. This is NORMAL. When you go home ice your lips and the swelling will go down in 1 to 3 days.
 </h6>
-
       </div>
       <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
       <div className="col-12 col-lg-12 pl-lg-0 pr-lg-6">
@@ -81,16 +80,16 @@ function Lipblush() {
   <div className="PmuBrows_row">
     <div className="col-12 col-lg-7 pl-lg-0 pr-lg-5">
       <h4 className="PmuLips_row__h4">BEFORE THE PROCEDURE</h4>
-      <h4 className="PmuLips_row__h4">Things You Should Avoid for at least 24 hours - BEFORE THE PROCEDURE</h4>
+      <h4 className="PmuLips_row__h4">Things You Should Avoid for at least 24 hours - BTP*</h4>
       <h6 className="aftercare__h6" >Alcohol, caffeine, Ibuprofen/Advil, Aspirin, Vitamin E, “Hair, Skin, Nail” supplements, and fish oil supplements.</h6>
-      <h4 className="PmuLips_row__h4">1 week - BEFORE THE PROCEDURE</h4>
-      <h6 className="aftercare__h6" >Avoid sun and tanning also brow waxing, tinting, or threading.</h6>
-      <h4 >Stop using 2 weeks - BEFORE THE PROCEDURE</h4>
-      <h6 className="aftercare__h6">Alpha Hydroxy Acid (AHA) products close to the eyebrow area</h6>
-      <h4 className="PmuLips_row__h4">Stop using at least 1 month - BEFORE THE PROCEDURE</h4>
+      <h4 className="PmuLips_row__h4">1 week - BTP*</h4>
+      <h6 className="aftercare__h6" >Avoid sun and tanning also upper and lower lip waxing or threading.</h6>
+      <h4 className="PmuLips_row__h4" >Stop using 2 weeks - BTP*</h4>
+      <h6 className="aftercare__h6">Alpha Hydroxy Acid (AHA) products close to the lip area</h6>
+      <h4 className="PmuLips_row__h4">Stop using at least 1 month - BTP*</h4>
       <h6 className="aftercare__h6">Retinol or vitamin A products,  chemical Peels, Microdermabrasion and facials.</h6>
-      <h4 className="PmuLips_row__h4">Should be avoided for 3 months - BEFORE THE PROCEDURE</h4>
-      <h6 className="aftercare__h6">Botox and filler on the forehead, temple, and eye area.</h6>
+      <h4 className="PmuLips_row__h4">Should be avoided for 1 month - BTP*</h4>
+      <h6 className="aftercare__h6">Botox and filler around lip area.</h6>
     </div>
     <div className="col-12 ml-md-5 ml-lg-0 pl-md-5 pl-lg-0 col-lg-5 mt-lg-5 mt-xl-3 pt-lg-5 pt-xl-0 pr-lg-0">
         <img src={preCare} alt="preCare" className="img-fluid mb-xl-5" style={styles.preCare} />
@@ -98,19 +97,49 @@ function Lipblush() {
   </div>  
   <div className="PmuBrows_row">
     <div className="col-12 col-lg-7 pl-lg-0 pr-lg-5">
-    <h4 >AFTER THE PROCEDURE</h4>
-    <img src={aftercare} alt="preCare" className="img-fluid mb-xl-5" style={styles.aftercare} />
+    <h4 className="PmuLips_row__h4" >AFTER THE PROCEDURE</h4>
+    <img src={LipBlush} alt="preCare" className="img-fluid mb-xl-5" style={styles.aftercare} />
     </div>
     <div className="col-12 ml-md-5 ml-lg-0 pl-md-5 pl-lg-0 col-lg-5 mt-lg-5 mt-xl-3 pt-lg-5 pt-xl-0 pr-lg-0">
-      <h4 > Day 1 – 2</h4>
-      <h6 className="aftercare__h6">Use a clean tissue every few hours to pick up the clear fluid that is coming out. This will help reduce scabbing. The fluid forms the scabs.</h6>
-      <h4 >Day 1 – 10</h4>
-      <h6 className="aftercare__h6" >Starting on the night of your procedure, wash your brows every morning and evening with antibacterial soap with your pointer finger in a circular motion. 
-        Lightly rinse off with your fingers. Dab dry and do not rub! 
-        Avoid use of abrasive washcloths or sponges. Allow eyebrows to completely dry before applying ointment. Apply the aftercare ointment with 
-        freshly washed hands or a Q-Tip. Only a thin layer.</h6>
-      <h4 >REMEMBER!</h4>
-      <h6 className="aftercare__h6">DO NOT rub, pick or scratch the treated area. Let any scabbing or dry skin naturally exfoliate off. Picking can cause scarring and pigment loss!</h6>
+      <h4 className="PmuLips_row__h4" > Day 1 – 2</h4>
+      <h6 className="aftercare__h6">Use a clean tissue every few hours to pick up the clear fluid that is coming out.
+This will help reduce scabbing. The fluid forms the scabs.
+Before bed, if the lips still have same dry lymph, rinse with lukewarm water, gently removing the dry lymph, pat dry and apply aftercare. Dab dry and do not rub!.</h6>
+      <h4 className="PmuLips_row__h4" >Day 2 – 7</h4>
+      <h6 className="aftercare__h6" >Use a clean tissue every few hours to pick up the clear fluid that is coming out. This will help reduce scabbing. The fluid forms the scabs. 
+        Before bed, if the lips still have same dry lymph, rinse with lukewarm water, gently removing the dry lymph, pat dry and apply aftercare. Dab dry and do not rub!</h6>
+        <h4 className="PmuLips_row__h4" >Day 1-7 (or until the scabs are gone) AVOID:</h4>
+        <ul className ='lip__ul' >
+          <li>
+          Water (On a PMU area) aside from cleaning them
+          </li>
+          <li>
+          Makeup
+            </li>
+            <li>
+            Sauna
+            </li>
+            <li>
+            Excessive sweating
+            </li>
+            <li>
+            Pools
+            </li>
+            <li>
+            Sunbathing and/or direct sun
+            </li>
+            <li>
+            Spicy food
+            </li>
+            <li>
+            Kissing
+            </li>
+        </ul>
+      <h4 className="PmuLips_row__h4" >REMEMBER!</h4>
+      <h6 className="aftercare__h6">DO NOT pick the dry lips. Do NOT apply anything besides AFTERCARE (no Vaseline, antibiotic creams, lip gloss etc.). Touch up (if needed) can be done no sooner than 8 weeks after the initial appointment.</h6>
+<h4 className="PmuLips_row__h4" >IMPORTANT!!</h4>
+<h6 className="aftercare__h6">Signs and symptoms of infection include, but are not limited to, redness, swelling, tenderness of the procedure site, red streaks going from the procedure site towards the heart, elevated body
+temperature, or purulent drainage from the procedure site. Seek medical care if you experience these signs and symptoms of infection..</h6>
     </div>
   </div>  
     </div>

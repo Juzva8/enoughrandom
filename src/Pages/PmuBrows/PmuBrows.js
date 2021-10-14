@@ -19,6 +19,8 @@ const styles = {
 },
 };
 
+//  
+
 function PmuBrows() {
     return (
         <div className="PmuBrows">
@@ -35,6 +37,8 @@ function PmuBrows() {
       <h6>POWDER BROWS</h6>
         <h6 id="h6_text">Powder brows can be done as light as a brow tint or as dark as glam. Recommended for those who want a completely "filled in" brow!</h6>
         <h6 id="h6_text2">   *Best for ALL skin types.</h6>
+        <h6>Microblading + Shading (combo)</h6>
+        <h6 id="h6_text">This technique offers the best of both powdered and hair stroke effects combined together to achieve a fluffy, textured, yet defined brow.</h6>
           </div>
           <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
           <div className="col-12 col-lg-12 pl-lg-0 pr-lg-6">
@@ -85,14 +89,19 @@ function PmuBrows() {
         </div>
         <div className="col-12 ml-md-5 ml-lg-0 pl-md-5 pl-lg-0 col-lg-5 mt-lg-5 mt-xl-3 pt-lg-5 pt-xl-0 pr-lg-0">
           <h4 > Day 1 – 2</h4>
-          <h6 className="aftercare__h6">Use a clean tissue every few hours to pick up the clear fluid that is coming out. This will help reduce scabbing. The fluid forms the scabs.</h6>
-          <h4 >Day 1 – 10</h4>
-          <h6 className="aftercare__h6" >Starting on the night of your procedure, wash your brows every morning and evening with antibacterial soap with your pointer finger in a circular motion. 
-            Lightly rinse off with your fingers. Dab dry and do not rub! 
-            Avoid use of abrasive washcloths or sponges. Allow eyebrows to completely dry before applying ointment. Apply the aftercare ointment with 
-            freshly washed hands or a Q-Tip. Only a thin layer.</h6>
+          <h6 className="aftercare__h6">Use a clean tissue every few hours to pick up the clear fluid that is coming out.
+            This will help reduce scabbing. The fluid forms the scabs. 24 hours completely dry healing. No wash, moisturize, touch!</h6>
+          <h4 >AFTER 24 HOURS</h4>
+          <h6 className="aftercare__h6" >After 24 hours, wash your brows every morning and evening with antibacterial soap with your pointer
+            finger in a circular motion. Lightly rinse off with your fingers. Dab dry and do not rub! Avoid use of abrasive washcloths or sponges. Allow eyebrows to completely dry before applying ointment. 
+      Apply the aftercare ointment with freshly washed hands or a Q-Tip. Only a thin layer freshly washed hands or a Q-Tip. Only a thin layer.</h6>
           <h4 >REMEMBER!</h4>
-          <h6 className="aftercare__h6">DO NOT rub, pick or scratch the treated area. Let any scabbing or dry skin naturally exfoliate off. Picking can cause scarring and pigment loss!</h6>
+          <h6 className="aftercare__h6">DO NOT rub, pick, or scratch the treated area. Let any scabbing or dry skin naturally exfoliate off. Picking can cause scarring and pigment loss!</h6>
+          <h4 >IMPORTANT!</h4>
+          <h6 className="aftercare__h6">Signs and symptoms of infection include, but are not limited to, redness, swelling, tenderness of the
+procedure site, red streaks going from the procedure site towards the heart, elevated body
+temperature, or purulent drainage from the procedure site.
+Seek medical care if you experience these signs and symptoms of infection.</h6>
         </div>
       </div>  
         </div>
