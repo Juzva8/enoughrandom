@@ -11,7 +11,7 @@ const Footer = () => (
                     <a href="https://g.page/brows-jungle?share" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-google fa-lg"></i>
                     </a> {}
-                    <a href="https://www.facebook.com/brows.jungle" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/browsjungles" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-facebook fa-lg"></i>
                     </a>
                 </ul>
