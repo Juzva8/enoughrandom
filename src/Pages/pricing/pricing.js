@@ -71,8 +71,8 @@ function pricing() {
 
         
  </div>
-   <div className="pricing__paragraph">1 to 3 months after the first session 
-    If you do not come back for a touch up during 3 months period, you will need to pay a full price again.</div>
+   <div className="pricing__paragraph">1 to 3 months after the initial session<br/>
+    If you do not come back for your touch up in time, that was given by the artist you will be charged a full price again.</div>
    </div>
    <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
@@ -83,18 +83,18 @@ function pricing() {
     <Book a href="https://calendly.com/browsjungle/5hours" target="_blank">Book Now</Book> </h3>
   
    </div>
-   <div className="pricing__paragraph">12 months after touch up session</div>
+   <div className="pricing__paragraph"> 6-12 months after the touch up session</div>
    </div>
    <div className="row">
     <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
     <h3 className="pricing__h3">Biannual touch up</h3>
    </div>
    <div className="col-12 col-lg-6 pl-lg-0 pr-lg-6">
-    <h3 className="pricing__h3__1">$170
+    <h3 className="pricing__h3__1">$200
     <Book a href="https://calendly.com/browsjungle/5hours" target="_blank">Book Now</Book>
     </h3>
    </div>
-   <div className="pricing__paragraph">24 months after touch up session. If you do not come back for a biannual touch up you will need to pay a full price again. </div>
+   <div className="pricing__paragraph">Biannual touch up 12-24 months after the touch up session <br/>If you do not come back for your touch up in time, that was given by the artist you will be charged a full price again. </div>
    </div>
    <div className="pricing__touchup">
   <h6><strong>*A $50 NON-REFUNDABLE BOOKING FEE IS REQUIRED TO RESERVE YOUR APPOINTMENT. THIS FEE WILL GO TOWARDS YOUR PROCEDURE PRICING.</strong></h6>
