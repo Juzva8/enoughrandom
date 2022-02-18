@@ -11,7 +11,7 @@ const toggleNavbar = () => setCollapsed(!collapsed);
     return (
         <div className="header">
 <Navbar color="faded" light>
-<NavLink className="header__home" href="/">BROWS JUNGLE</NavLink>
+<NavLink className="header__home" href="/">PMU Corona</NavLink>
     <NavbarToggler onClick={toggleNavbar} className="mr-2" />
     <Collapse isOpen={!collapsed} navbar>
       <Nav navbar>
