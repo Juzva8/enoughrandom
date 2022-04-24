@@ -6,13 +6,13 @@ function Home() {
     return (
         <div className="home">
           <h1 className="home_h1">Microblading near me in Corona CA</h1>
-          <h1 className="home_h1">Microblading near me in Lake Elsinore CA</h1>
+          <h1 className="home_h1">Microblading near me in Corona CA</h1>
           <h2 className="home_h2">Best PMU in Riverside, CA</h2>
           <h3 className="home_h2">Best Lip Blushing in Corona, CA</h3>
          <Typewriter 
          onInit = {(typewriter) => {
            typewriter
-           .typeString("Permanent makeup in Lake Elsinore, Riverside!")
+           .typeString("Permanent makeup in Corona, Riverside!")
            .pauseFor(1000)
            .deleteAll()
            .typeString("Lip Blush, Powder Brows, Microblading!")

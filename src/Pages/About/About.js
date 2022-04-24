@@ -23,7 +23,7 @@ const styles = {
             </h5>
             <h5 className="text-black mb-5" style={styles.main}>
             My name is <strong> Erika</strong>, and I am excited to welcome you to 
-Brows Jungle, LLC! 
+Brows Jungle - best Microblading in Corona,
 I honestly believe that brows can make or break any look, and my passion for what I do, 
 combined with the desire to be the best, distinguishes me from other artists. 
 I am a perfectionist by nature, 
@@ -32,7 +32,7 @@ I use innovative techniques and superior products to enhance and highlight
 my client’s natural beauty, for exceptionally gorgeous results.   
 If you are looking for a company that makes your brows and lips satisfaction their top priority, 
 Brows Jungle, LLC is the place for you! 
-PMU beauty salon located in Lake Elsinore, California! 
+PMU beauty salon located in Corona, California! 
 I am looking forward to seeing you soon!
             </h5>
           </div>
