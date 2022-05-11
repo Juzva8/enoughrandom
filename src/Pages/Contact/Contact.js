@@ -8,7 +8,7 @@ export default function Contact() {
     return (
         <div className="contact">
           <>
-          <InlineWidget url="https://calendly.com/browsjungle/5hours?month=2021-10&date=2021-10-15" />
+          <InlineWidget url="https://calendly.com/browsjungle/4-5hours" />
           </>
 
             <h2>PMU Corona</h2>
